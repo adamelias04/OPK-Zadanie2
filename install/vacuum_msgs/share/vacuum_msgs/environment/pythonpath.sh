@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/ament_cmake_environment_hooks/pythonpath.sh

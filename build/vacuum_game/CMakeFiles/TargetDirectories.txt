@@ -1,0 +1,12 @@
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/uninstall.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/vacuum_game_uninstall.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/game_node.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/teleop_node.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/bot_node.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/test.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/edit_cache.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/rebuild_cache.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/list_install_components.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/install.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/install/local.dir
+/home/adam/opk/zadanie2/build/vacuum_game/CMakeFiles/install/strip.dir

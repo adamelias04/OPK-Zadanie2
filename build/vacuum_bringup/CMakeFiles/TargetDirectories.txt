@@ -1,0 +1,9 @@
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/uninstall.dir
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/vacuum_bringup_uninstall.dir
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/test.dir
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/edit_cache.dir
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/rebuild_cache.dir
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/list_install_components.dir
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/install.dir
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/install/local.dir
+/home/adam/opk/zadanie2/build/vacuum_bringup/CMakeFiles/install/strip.dir

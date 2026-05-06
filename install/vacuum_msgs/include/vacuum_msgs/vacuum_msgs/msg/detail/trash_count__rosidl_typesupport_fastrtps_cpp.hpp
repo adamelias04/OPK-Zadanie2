@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/msg/detail/trash_count__rosidl_typesupport_fastrtps_cpp.hpp

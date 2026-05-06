@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vacuum_msgs__cpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/game_state__builder.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/game_state__struct.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/game_state__traits.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/game_state__type_support.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/robot_status__builder.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/robot_status__struct.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/robot_status__traits.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/robot_status__type_support.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/trash_count__builder.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/trash_count__struct.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/trash_count__traits.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/trash_count__type_support.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/trash_item__builder.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/trash_item__struct.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/trash_item__traits.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/detail/trash_item__type_support.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/game_state.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/robot_status.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/trash_count.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/msg/trash_item.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/collect_trash.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/collect_trash__builder.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/collect_trash__struct.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/collect_trash__traits.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/collect_trash__type_support.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/reset_game__builder.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/reset_game__struct.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/reset_game__traits.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/reset_game__type_support.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/unload_trash__builder.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/unload_trash__struct.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/unload_trash__traits.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/detail/unload_trash__type_support.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/reset_game.hpp"
+  "rosidl_generator_cpp/vacuum_msgs/srv/unload_trash.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/vacuum_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

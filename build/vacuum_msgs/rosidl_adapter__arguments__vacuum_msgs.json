@@ -1,0 +1,12 @@
+{
+  "package_name": "vacuum_msgs",
+  "non_idl_tuples": [
+    "/home/adam/opk/zadanie2/src/vacuum_msgs:msg/TrashItem.msg",
+    "/home/adam/opk/zadanie2/src/vacuum_msgs:msg/TrashCount.msg",
+    "/home/adam/opk/zadanie2/src/vacuum_msgs:msg/RobotStatus.msg",
+    "/home/adam/opk/zadanie2/src/vacuum_msgs:msg/GameState.msg",
+    "/home/adam/opk/zadanie2/src/vacuum_msgs:srv/CollectTrash.srv",
+    "/home/adam/opk/zadanie2/src/vacuum_msgs:srv/UnloadTrash.srv",
+    "/home/adam/opk/zadanie2/src/vacuum_msgs:srv/ResetGame.srv"
+  ]
+}

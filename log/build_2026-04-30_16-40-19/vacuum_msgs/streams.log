@@ -1,0 +1,423 @@
+[0.005s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_msgs -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_msgs
+[0.215s] -- The C compiler identification is GNU 11.4.0
+[0.259s] -- The CXX compiler identification is GNU 11.4.0
+[0.271s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.334s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.344s] -- Detecting CXX compiler ABI info
+[0.399s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.414s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.533s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.613s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.675s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.695s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.011s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.682s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.710s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.720s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.750s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.750s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.750s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.750s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.770s] -- Found PythonExtra: .so  
+[1.848s] -- Configuring done
+[1.891s] -- Generating done
+[1.900s] -- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_msgs
+[1.906s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_msgs -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_msgs
+[1.907s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12
+[1.939s] [  1%] Generating C code for ROS interfaces
+[1.947s] [  2%] Generating C++ code for ROS interfaces
+[1.954s] [  2%] Built target ament_cmake_python_copy_vacuum_msgs
+[2.100s] running egg_info
+[2.100s] creating vacuum_msgs.egg-info
+[2.100s] writing vacuum_msgs.egg-info/PKG-INFO
+[2.101s] writing dependency_links to vacuum_msgs.egg-info/dependency_links.txt
+[2.101s] writing top-level names to vacuum_msgs.egg-info/top_level.txt
+[2.101s] writing manifest file 'vacuum_msgs.egg-info/SOURCES.txt'
+[2.102s] reading manifest file 'vacuum_msgs.egg-info/SOURCES.txt'
+[2.102s] writing manifest file 'vacuum_msgs.egg-info/SOURCES.txt'
+[2.121s] [  2%] Built target ament_cmake_python_build_vacuum_msgs_egg
+[2.385s] [  3%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_c.dir/rosidl_generator_c/vacuum_msgs/msg/detail/robot_status__functions.c.o
+[2.385s] [  3%] Built target vacuum_msgs__cpp
+[2.387s] [  5%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_c.dir/rosidl_generator_c/vacuum_msgs/srv/detail/reset_game__functions.c.o
+[2.387s] [  7%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_c.dir/rosidl_generator_c/vacuum_msgs/msg/detail/trash_item__functions.c.o
+[2.388s] [  7%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_c.dir/rosidl_generator_c/vacuum_msgs/msg/detail/trash_count__functions.c.o
+[2.388s] [ 10%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_c.dir/rosidl_generator_c/vacuum_msgs/msg/detail/game_state__functions.c.o
+[2.388s] [ 10%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_c.dir/rosidl_generator_c/vacuum_msgs/srv/detail/collect_trash__functions.c.o
+[2.388s] [ 11%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_c.dir/rosidl_generator_c/vacuum_msgs/srv/detail/unload_trash__functions.c.o
+[2.392s] [ 12%] Generating C++ type support dispatch for ROS interfaces
+[2.396s] [ 13%] Generating C++ type support for eProsima Fast-RTPS
+[2.403s] [ 15%] Generating C++ introspection for ROS interfaces
+[2.452s] [ 16%] Linking C shared library libvacuum_msgs__rosidl_generator_c.so
+[2.483s] [ 16%] Built target vacuum_msgs__rosidl_generator_c
+[2.490s] [ 17%] Generating C introspection for ROS interfaces
+[2.492s] [ 20%] Generating C type support dispatch for ROS interfaces
+[2.492s] [ 20%] Generating C type support for eProsima Fast-RTPS
+[2.699s] [ 21%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vacuum_msgs/msg/detail/trash_item__type_support.cpp.o
+[2.700s] [ 24%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vacuum_msgs/msg/detail/trash_count__type_support.cpp.o
+[2.701s] [ 24%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vacuum_msgs/msg/detail/game_state__type_support.cpp.o
+[2.701s] [ 26%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vacuum_msgs/srv/detail/collect_trash__type_support.cpp.o
+[2.701s] [ 25%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vacuum_msgs/msg/detail/robot_status__type_support.cpp.o
+[2.705s] [ 27%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vacuum_msgs/srv/detail/unload_trash__type_support.cpp.o
+[2.709s] [ 29%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vacuum_msgs/srv/detail/reset_game__type_support.cpp.o
+[2.902s] [ 30%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vacuum_msgs/msg/trash_item__type_support.cpp.o
+[2.927s] [ 31%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/msg/detail/dds_fastrtps/trash_item__type_support.cpp.o
+[3.020s] [ 32%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vacuum_msgs/msg/trash_count__type_support.cpp.o
+[3.023s] [ 34%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vacuum_msgs/msg/trash_item__type_support.cpp.o
+[3.035s] [ 35%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/msg/detail/dds_fastrtps/trash_count__type_support.cpp.o
+[3.062s] [ 36%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vacuum_msgs/msg/trash_count__type_support.cpp.o
+[3.078s] [ 37%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vacuum_msgs/msg/robot_status__type_support.cpp.o
+[3.100s] [ 39%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vacuum_msgs/msg/robot_status__type_support.cpp.o
+[3.104s] [ 40%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vacuum_msgs/msg/detail/trash_item__type_support.c.o
+[3.111s] [ 41%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vacuum_msgs/msg/game_state__type_support.cpp.o
+[3.141s] [ 43%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vacuum_msgs/srv/collect_trash__type_support.cpp.o
+[3.143s] [ 44%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vacuum_msgs/msg/detail/trash_count__type_support.c.o
+[3.150s] [ 45%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vacuum_msgs/msg/game_state__type_support.cpp.o
+[3.154s] [ 46%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o
+[3.163s] [ 48%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vacuum_msgs/msg/detail/trash_item__type_support_c.cpp.o
+[3.188s] [ 49%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vacuum_msgs/msg/detail/trash_count__type_support_c.cpp.o
+[3.188s] [ 50%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vacuum_msgs/srv/unload_trash__type_support.cpp.o
+[3.192s] [ 51%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vacuum_msgs/msg/detail/robot_status__type_support.c.o
+[3.231s] [ 53%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vacuum_msgs/msg/detail/game_state__type_support.c.o
+[3.238s] [ 54%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vacuum_msgs/srv/reset_game__type_support.cpp.o
+[3.270s] [ 55%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vacuum_msgs/srv/collect_trash__type_support.cpp.o
+[3.292s] [ 56%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vacuum_msgs/srv/detail/collect_trash__type_support.c.o
+[3.292s] [ 58%] Linking CXX shared library libvacuum_msgs__rosidl_typesupport_introspection_cpp.so
+[3.309s] [ 59%] Linking CXX shared library libvacuum_msgs__rosidl_typesupport_c.so
+[3.336s] [ 60%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vacuum_msgs/srv/unload_trash__type_support.cpp.o
+[3.346s] [ 62%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vacuum_msgs/srv/detail/unload_trash__type_support.c.o
+[3.365s] [ 63%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vacuum_msgs/srv/detail/reset_game__type_support.c.o
+[3.393s] [ 64%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vacuum_msgs/msg/detail/robot_status__type_support_c.cpp.o
+[3.402s] [ 64%] Built target vacuum_msgs__rosidl_typesupport_c
+[3.407s] [ 65%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vacuum_msgs/srv/reset_game__type_support.cpp.o
+[3.421s] [ 67%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vacuum_msgs/msg/detail/game_state__type_support_c.cpp.o
+[3.423s] [ 68%] Linking C shared library libvacuum_msgs__rosidl_typesupport_introspection_c.so
+[3.451s] [ 68%] Built target vacuum_msgs__rosidl_typesupport_introspection_cpp
+[3.466s] [ 69%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vacuum_msgs/srv/detail/collect_trash__type_support_c.cpp.o
+[3.474s] [ 70%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/msg/detail/dds_fastrtps/game_state__type_support.cpp.o
+[3.479s] [ 70%] Built target vacuum_msgs__rosidl_typesupport_introspection_c
+[3.500s] [ 72%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vacuum_msgs/srv/detail/unload_trash__type_support_c.cpp.o
+[3.508s] [ 73%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/srv/detail/dds_fastrtps/collect_trash__type_support.cpp.o
+[3.548s] [ 74%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vacuum_msgs/srv/detail/reset_game__type_support_c.cpp.o
+[3.554s] [ 75%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/srv/detail/dds_fastrtps/unload_trash__type_support.cpp.o
+[3.608s] [ 77%] Building CXX object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/srv/detail/dds_fastrtps/reset_game__type_support.cpp.o
+[3.771s] [ 78%] Linking CXX shared library libvacuum_msgs__rosidl_typesupport_cpp.so
+[3.864s] [ 78%] Built target vacuum_msgs__rosidl_typesupport_cpp
+[3.983s] [ 79%] Linking CXX shared library libvacuum_msgs__rosidl_typesupport_fastrtps_c.so
+[4.007s] [ 81%] Linking CXX shared library libvacuum_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.041s] [ 81%] Built target vacuum_msgs__rosidl_typesupport_fastrtps_c
+[4.065s] [ 81%] Built target vacuum_msgs__rosidl_typesupport_fastrtps_cpp
+[4.082s] [ 81%] Built target vacuum_msgs
+[4.102s] [ 82%] Generating Python code for ROS interfaces
+[4.895s] [ 82%] Built target vacuum_msgs__py
+[4.903s] [ 83%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_py.dir/rosidl_generator_py/vacuum_msgs/srv/_reset_game_s.c.o
+[4.903s] [ 84%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_py.dir/rosidl_generator_py/vacuum_msgs/msg/_robot_status_s.c.o
+[4.903s] [ 87%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_py.dir/rosidl_generator_py/vacuum_msgs/msg/_trash_count_s.c.o
+[4.903s] [ 87%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_py.dir/rosidl_generator_py/vacuum_msgs/msg/_trash_item_s.c.o
+[4.903s] [ 88%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_py.dir/rosidl_generator_py/vacuum_msgs/srv/_collect_trash_s.c.o
+[4.903s] [ 89%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_py.dir/rosidl_generator_py/vacuum_msgs/msg/_game_state_s.c.o
+[4.904s] [ 91%] Building C object CMakeFiles/vacuum_msgs__rosidl_generator_py.dir/rosidl_generator_py/vacuum_msgs/srv/_unload_trash_s.c.o
+[5.017s] [ 92%] Linking C shared library rosidl_generator_py/vacuum_msgs/libvacuum_msgs__rosidl_generator_py.so
+[5.055s] [ 92%] Built target vacuum_msgs__rosidl_generator_py
+[5.070s] [ 93%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vacuum_msgs/_vacuum_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[5.071s] [ 94%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vacuum_msgs/_vacuum_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[5.072s] [ 96%] Building C object CMakeFiles/vacuum_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vacuum_msgs/_vacuum_msgs_s.ep.rosidl_typesupport_c.c.o
+[5.157s] [ 97%] Linking C shared library rosidl_generator_py/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.163s] [ 98%] Linking C shared library rosidl_generator_py/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.164s] [100%] Linking C shared library rosidl_generator_py/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.190s] [100%] Built target vacuum_msgs__rosidl_typesupport_introspection_c__pyext
+[5.194s] [100%] Built target vacuum_msgs__rosidl_typesupport_c__pyext
+[5.200s] [100%] Built target vacuum_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.207s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12
+[5.208s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_msgs
+[5.213s] -- Install configuration: ""
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/ament_index/resource_index/rosidl_interfaces/vacuum_msgs
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/unload_trash.h
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/collect_trash.h
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/reset_game.h
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__functions.h
+[5.214s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__functions.c
+[5.215s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__functions.h
+[5.215s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__functions.c
+[5.215s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__type_support.h
+[5.215s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__struct.h
+[5.215s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__functions.h
+[5.215s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__functions.c
+[5.215s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__struct.h
+[5.215s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__struct.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__type_support.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__type_support.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/trash_count.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/trash_item.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/robot_status.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/game_state.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__struct.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__struct.h
+[5.216s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__functions.c
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__functions.h
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__functions.h
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__functions.h
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__functions.c
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__struct.h
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__type_support.h
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__functions.c
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__type_support.h
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__functions.h
+[5.217s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__type_support.h
+[5.218s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__functions.c
+[5.218s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__struct.h
+[5.218s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__type_support.h
+[5.218s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/environment/library_path.sh
+[5.218s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/environment/library_path.dsv
+[5.218s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_generator_c.so
+[5.218s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_generator_c.so" to ""
+[5.218s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs
+[5.218s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv
+[5.219s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail
+[5.219s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__rosidl_typesupport_fastrtps_c.h
+[5.219s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__rosidl_typesupport_fastrtps_c.h
+[5.219s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__rosidl_typesupport_fastrtps_c.h
+[5.219s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg
+[5.219s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.219s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail
+[5.219s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__rosidl_typesupport_fastrtps_c.h
+[5.219s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[5.219s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__rosidl_typesupport_fastrtps_c.h
+[5.220s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__rosidl_typesupport_fastrtps_c.h
+[5.220s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_fastrtps_c.so
+[5.220s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.220s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs
+[5.220s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv
+[5.220s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail
+[5.220s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__rosidl_typesupport_introspection_c.h
+[5.220s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__rosidl_typesupport_introspection_c.h
+[5.220s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__type_support.c
+[5.220s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__type_support.c
+[5.220s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__type_support.c
+[5.221s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__rosidl_typesupport_introspection_c.h
+[5.221s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg
+[5.221s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.221s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail
+[5.221s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__type_support.c
+[5.221s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[5.221s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__type_support.c
+[5.221s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__type_support.c
+[5.221s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__type_support.c
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__rosidl_typesupport_introspection_c.h
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__rosidl_typesupport_introspection_c.h
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__rosidl_typesupport_introspection_c.h
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_introspection_c.so
+[5.222s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_c.so
+[5.222s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_c.so" to ""
+[5.222s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs
+[5.222s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/collect_trash.hpp
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/unload_trash.hpp
+[5.222s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__traits.hpp
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__struct.hpp
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__type_support.hpp
+[5.222s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__builder.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__builder.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__builder.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__type_support.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__struct.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__type_support.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__traits.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__struct.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__traits.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/reset_game.hpp
+[5.223s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/game_state.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/trash_count.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/trash_item.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.223s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__traits.hpp
+[5.223s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__builder.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__traits.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__builder.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__type_support.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__type_support.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__traits.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__struct.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__type_support.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__struct.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__traits.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__builder.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__struct.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__struct.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__builder.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__type_support.hpp
+[5.224s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/robot_status.hpp
+[5.224s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs
+[5.224s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv
+[5.225s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/dds_fastrtps
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__rosidl_typesupport_fastrtps_cpp.hpp
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__rosidl_typesupport_fastrtps_cpp.hpp
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__rosidl_typesupport_fastrtps_cpp.hpp
+[5.225s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.225s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__rosidl_typesupport_fastrtps_cpp.hpp
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/dds_fastrtps
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__rosidl_typesupport_fastrtps_cpp.hpp
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.225s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.225s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.225s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs
+[5.225s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv
+[5.225s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__rosidl_typesupport_introspection_cpp.hpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__type_support.cpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/reset_game__rosidl_typesupport_introspection_cpp.hpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__rosidl_typesupport_introspection_cpp.hpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/unload_trash__type_support.cpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/srv/detail/collect_trash__type_support.cpp
+[5.226s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg
+[5.226s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__type_support.cpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__rosidl_typesupport_introspection_cpp.hpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_item__rosidl_typesupport_introspection_cpp.hpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__type_support.cpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/game_state__type_support.cpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__rosidl_typesupport_introspection_cpp.hpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/trash_count__type_support.cpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/include/vacuum_msgs/vacuum_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_introspection_cpp.so
+[5.226s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.226s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_cpp.so
+[5.227s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_typesupport_cpp.so" to ""
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/environment/pythonpath.sh
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/environment/pythonpath.dsv
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs-0.1.0-py3.10.egg-info
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/_vacuum_msgs_s.ep.rosidl_typesupport_c.c
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/_vacuum_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/__init__.py
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_collect_trash_s.c
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_unload_trash_s.c
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/__init__.py
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_unload_trash.py
+[5.227s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_reset_game_s.c
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_collect_trash.py
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_reset_game.py
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/libvacuum_msgs__rosidl_generator_py.so
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_robot_status.py
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_robot_status_s.c
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_trash_count_s.c
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/__init__.py
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_trash_item_s.c
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_trash_count.py
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_game_state.py
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_trash_item.py
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_game_state_s.c
+[5.228s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/_vacuum_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.257s] Listing '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs'...
+[5.257s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/__init__.py'...
+[5.257s] Listing '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg'...
+[5.257s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/__init__.py'...
+[5.257s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_game_state.py'...
+[5.257s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_robot_status.py'...
+[5.257s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_trash_count.py'...
+[5.257s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/msg/_trash_item.py'...
+[5.257s] Listing '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv'...
+[5.257s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/__init__.py'...
+[5.258s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_collect_trash.py'...
+[5.258s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_reset_game.py'...
+[5.258s] Compiling '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/srv/_unload_trash.py'...
+[5.260s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.260s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.261s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.261s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.261s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.262s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages/vacuum_msgs/vacuum_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.262s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_generator_py.so
+[5.262s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_msgs/lib/libvacuum_msgs__rosidl_generator_py.so" to ""
+[5.262s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/msg/TrashItem.idl
+[5.262s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/msg/TrashCount.idl
+[5.262s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/msg/RobotStatus.idl
+[5.262s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/msg/GameState.idl
+[5.262s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/CollectTrash.idl
+[5.262s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/UnloadTrash.idl
+[5.262s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/ResetGame.idl
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/msg/TrashItem.msg
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/msg/TrashCount.msg
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/msg/RobotStatus.msg
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/msg/GameState.msg
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/CollectTrash.srv
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/CollectTrash_Request.msg
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/CollectTrash_Response.msg
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/UnloadTrash.srv
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/UnloadTrash_Request.msg
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/UnloadTrash_Response.msg
+[5.263s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/ResetGame.srv
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/ResetGame_Request.msg
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/srv/ResetGame_Response.msg
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/ament_index/resource_index/package_run_dependencies/vacuum_msgs
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/ament_index/resource_index/parent_prefix_path/vacuum_msgs
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/environment/ament_prefix_path.sh
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/environment/ament_prefix_path.dsv
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/environment/path.sh
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/environment/path.dsv
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/local_setup.bash
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/local_setup.sh
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/local_setup.zsh
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/local_setup.dsv
+[5.264s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.dsv
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/ament_index/resource_index/packages/vacuum_msgs
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_generator_cExport.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgs__rosidl_typesupport_cExport.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_generator_cppExport.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgs__rosidl_typesupport_cppExport.cmake
+[5.265s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.266s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_generator_pyExport.cmake
+[5.266s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/export_vacuum_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.266s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/rosidl_cmake-extras.cmake
+[5.266s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.266s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.266s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.267s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.267s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.267s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.267s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgsConfig.cmake
+[5.267s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake/vacuum_msgsConfig-version.cmake
+[5.267s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.xml
+[5.267s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_msgs

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/adam/opk/zadanie2/build/vacuum_game/game_node" "/home/adam/opk/zadanie2/build/vacuum_game/teleop_node" "/home/adam/opk/zadanie2/build/vacuum_game/bot_node" "TARGETS" "game_node" "teleop_node" "bot_node" "DESTINATION" "lib/vacuum_game")

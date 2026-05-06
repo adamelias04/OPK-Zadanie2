@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/src/vacuum_core/include/vacuum_core/world/WorldObject.h

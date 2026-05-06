@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_bringup/ament_cmake_core/vacuum_bringupConfig.cmake

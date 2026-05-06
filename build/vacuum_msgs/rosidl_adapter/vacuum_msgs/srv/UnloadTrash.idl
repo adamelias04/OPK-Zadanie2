@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vacuum_msgs/srv/UnloadTrash.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module vacuum_msgs {
+  module srv {
+    struct UnloadTrash_Request {
+      string robot_id;
+
+      geometry_msgs::msg::Point robot_pos;
+    };
+    struct UnloadTrash_Response {
+      boolean success;
+
+      int32 score_gained;
+
+      uint32 capacity_used;
+    };
+  };
+};

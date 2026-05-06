@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_typesupport_introspection_cpp/vacuum_msgs/srv/detail/unload_trash__rosidl_typesupport_introspection_cpp.hpp

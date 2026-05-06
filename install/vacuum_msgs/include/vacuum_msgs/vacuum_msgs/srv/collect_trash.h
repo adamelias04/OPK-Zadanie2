@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_generator_c/vacuum_msgs/srv/collect_trash.h

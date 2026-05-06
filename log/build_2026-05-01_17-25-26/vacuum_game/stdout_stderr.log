@@ -1,0 +1,28 @@
+Consolidate compiler generated dependencies of target bot_node
+Consolidate compiler generated dependencies of target teleop_node
+Consolidate compiler generated dependencies of target game_node
+[ 16%] Building CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o
+[ 83%] Built target teleop_node
+[ 83%] Built target bot_node
+[100%] Linking CXX executable game_node
+[100%] Built target game_node
+-- Install configuration: ""
+-- Installing: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/game_node
+-- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/game_node" to ""
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/teleop_node
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/bot_node
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/package_run_dependencies/vacuum_game
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/parent_prefix_path/vacuum_game
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.sh
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.dsv
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.bash
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.sh
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.zsh
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.dsv
+-- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.dsv
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/packages/vacuum_game
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig.cmake
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig-version.cmake
+-- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.xml

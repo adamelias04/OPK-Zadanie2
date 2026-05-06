@@ -1,0 +1,48 @@
+# Vacuum cleaner game — complete configuration.
+# All values are in metres / seconds unless otherwise noted.
+
+environment:
+  map_path: /home/adam/opk/zadanie2/src/vacuum_bringup/maps/opk-map.png
+  resolution: 0.05          # metres per pixel  (1536x1024 map -> 76.8 x 51.2 m)
+
+  station:
+    x: 12.0
+    y: 33.2
+    radius: 0.8
+
+  obstacles:
+    - {shape: circle,    x: 18.0, y: 37.2, radius: 0.8}
+    - {shape: rectangle, x: 20.0, y: 33.2, width: 1.5, height: 1.0}
+    - {shape: circle,    x: 8.0,  y: 39.2, radius: 0.6}
+
+robot:
+  radius: 0.3
+  max_capacity: 5
+
+  accel_linear: 4.0
+  accel_angular: 3.0
+  emergency_accel_linear: 8.0
+  emergency_accel_angular: 6.0
+  command_duration: 1.0
+  simulation_period_ms: 30
+
+trash:
+  radius_min: 0.15
+  radius_max: 0.25
+  types:
+    - {type: paper,   weight: 1.0, color: [1.0, 1.0, 0.0, 1.0]}   # yellow
+    - {type: plastic, weight: 1.0, color: [0.2, 0.4, 1.0, 1.0]}   # blue
+    - {type: glass,   weight: 1.0, color: [0.2, 0.9, 0.4, 1.0]}   # greenish
+
+game:
+  mode: duel
+  spawn_interval_sec: 3.0
+  initial_trash_count: 15
+  duel_goal_count: 3
+  duel_time_limit_sec: 180.0
+  bot_max_linear: 1.5
+  bot_max_angular: 2.0
+
+robots:
+  - {id: player, start_x: 10.0, start_y: 36.2, start_theta: 0.0, ghost: false, bot: false}
+  - {id: bot,    start_x: 14.0, start_y: 35.2, start_theta: 0.0, ghost: true,  bot: true}

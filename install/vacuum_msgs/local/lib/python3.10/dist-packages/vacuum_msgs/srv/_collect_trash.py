@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_generator_py/vacuum_msgs/srv/_collect_trash.py

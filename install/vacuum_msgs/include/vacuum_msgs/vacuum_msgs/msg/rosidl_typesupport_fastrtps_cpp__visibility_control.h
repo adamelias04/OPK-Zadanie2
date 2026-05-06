@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_typesupport_fastrtps_cpp/vacuum_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

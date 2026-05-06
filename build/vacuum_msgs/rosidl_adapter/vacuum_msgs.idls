@@ -1,0 +1,7 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_adapter/vacuum_msgs:msg/TrashItem.idl
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_adapter/vacuum_msgs:msg/TrashCount.idl
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_adapter/vacuum_msgs:msg/RobotStatus.idl
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_adapter/vacuum_msgs:msg/GameState.idl
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_adapter/vacuum_msgs:srv/CollectTrash.idl
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_adapter/vacuum_msgs:srv/UnloadTrash.idl
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_adapter/vacuum_msgs:srv/ResetGame.idl

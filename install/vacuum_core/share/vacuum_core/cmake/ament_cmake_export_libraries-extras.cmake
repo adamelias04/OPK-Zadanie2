@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_core/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

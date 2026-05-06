@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_msgs
+[0.021s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.141s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.147s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.193s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.211s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.466s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.949s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.975s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.975s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.975s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.017s] -- Configuring done
+[1.047s] -- Generating done
+[1.055s] -- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_msgs
+[1.060s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_msgs
+[1.061s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12
+[1.098s] [35m[1mConsolidate compiler generated dependencies of target vacuum_msgs__rosidl_generator_c[0m
+[1.104s] failed to create symbolic link '/home/adam/opk/zadanie2/build/vacuum_msgs/ament_cmake_python/vacuum_msgs/vacuum_msgs' because existing path cannot be removed: Is a directory
+[1.105s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vacuum_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vacuum_msgs] Error 1
+[1.105s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_vacuum_msgs.dir/all] Error 2
+[1.105s] gmake[1]: *** Waiting for unfinished jobs....
+[1.111s] [ 11%] Built target vacuum_msgs__rosidl_generator_c
+[1.112s] [ 12%] Built target vacuum_msgs__cpp
+[1.113s] gmake: *** [Makefile:146: all] Error 2
+[1.115s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12

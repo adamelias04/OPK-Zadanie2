@@ -1,0 +1,17 @@
+/home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/robot_node
+/home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/lidar_node
+/home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/package_run_dependencies/vacuum_robot
+/home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/parent_prefix_path/vacuum_robot
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.sh
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.dsv
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.sh
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.dsv
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.bash
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.sh
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.zsh
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.dsv
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.dsv
+/home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/packages/vacuum_robot
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig.cmake
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig-version.cmake
+/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.xml

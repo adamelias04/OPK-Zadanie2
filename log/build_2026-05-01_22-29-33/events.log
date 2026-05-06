@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000163] (-) JobUnselected: {'identifier': 'vacuum_bringup'}
+[0.000529] (-) JobUnselected: {'identifier': 'vacuum_core'}
+[0.000568] (-) JobUnselected: {'identifier': 'vacuum_game'}
+[0.000588] (-) JobUnselected: {'identifier': 'vacuum_msgs'}
+[0.000607] (vacuum_robot) JobQueued: {'identifier': 'vacuum_robot', 'dependencies': OrderedDict([('vacuum_core', '/home/adam/opk/zadanie2/install/vacuum_core'), ('vacuum_msgs', '/home/adam/opk/zadanie2/install/vacuum_msgs')])}
+[0.000631] (vacuum_robot) JobStarted: {'identifier': 'vacuum_robot'}
+[0.016089] (vacuum_robot) JobProgress: {'identifier': 'vacuum_robot', 'progress': 'cmake'}
+[0.017403] (vacuum_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/adam/opk/zadanie2/src/vacuum_robot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_robot'], 'cwd': '/home/adam/opk/zadanie2/build/vacuum_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/adam'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code/2.1.126/agent'), ('USER', 'adam'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'de_DE.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adam'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/adam/opk'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-48be565a-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1757'), ('SYSTEMD_EXEC_PID', '2175'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2749'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/adam/rrm_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'adam'), ('JOURNAL_STREAM', '8:3924'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adam'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adam-AORUS-15-YE5:@/tmp/.ICE-unix/2139,unix/adam-AORUS-15-YE5:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '9ad75880fca74b0baf5d2a8e59cb5f7e'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adam/opk/zadanie2/build/vacuum_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/adam/.config/Code/CachedData/072586267e68ece9a47aa43f8c108e0dcbf44622'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/adam/.vscode/extensions/anthropic.claude-code-2.1.126-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/zad6ik/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/zad4/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/rrm_projekt/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/rrm_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble'), ('VSCODE_PID', '2749')]), 'shell': False}
+[0.035449] (vacuum_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099899] (-) TimerEvent: {}
+[0.155170] (vacuum_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.160815] (vacuum_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.182611] (vacuum_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.184400] (vacuum_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.188720] (vacuum_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.195823] (vacuum_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.200018] (-) TimerEvent: {}
+[0.205074] (vacuum_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.246102] (vacuum_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.249845] (vacuum_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300159] (-) TimerEvent: {}
+[0.369517] (vacuum_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400342] (-) TimerEvent: {}
+[0.422746] (vacuum_robot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.430397] (vacuum_robot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.442275] (vacuum_robot) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.453817] (vacuum_robot) StdoutLine: {'line': b'-- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.457274] (vacuum_robot) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.500611] (-) TimerEvent: {}
+[0.518113] (vacuum_robot) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.521667] (vacuum_robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.522918] (vacuum_robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.524895] (vacuum_robot) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.537978] (vacuum_robot) StdoutLine: {'line': b'-- Found vacuum_core: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake)\n'}
+[0.543762] (vacuum_robot) StdoutLine: {'line': b'-- Found vacuum_msgs: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake)\n'}
+[0.557974] (vacuum_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600736] (-) TimerEvent: {}
+[0.609842] (vacuum_robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.609998] (vacuum_robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.610062] (vacuum_robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.610318] (vacuum_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.610861] (vacuum_robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.610965] (vacuum_robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.611157] (vacuum_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.611960] (vacuum_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.625758] (vacuum_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[0.629912] (vacuum_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_robot\n'}
+[0.634886] (vacuum_robot) CommandEnded: {'returncode': 0}
+[0.635458] (vacuum_robot) JobProgress: {'identifier': 'vacuum_robot', 'progress': 'build'}
+[0.635894] (vacuum_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/opk/zadanie2/build/vacuum_robot', '--', '-j12', '-l12'], 'cwd': '/home/adam/opk/zadanie2/build/vacuum_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/adam'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code/2.1.126/agent'), ('USER', 'adam'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'de_DE.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adam'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/adam/opk'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-48be565a-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1757'), ('SYSTEMD_EXEC_PID', '2175'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2749'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/adam/rrm_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'adam'), ('JOURNAL_STREAM', '8:3924'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adam'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adam-AORUS-15-YE5:@/tmp/.ICE-unix/2139,unix/adam-AORUS-15-YE5:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '9ad75880fca74b0baf5d2a8e59cb5f7e'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adam/opk/zadanie2/build/vacuum_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/adam/.config/Code/CachedData/072586267e68ece9a47aa43f8c108e0dcbf44622'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/adam/.vscode/extensions/anthropic.claude-code-2.1.126-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/zad6ik/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/zad4/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/rrm_projekt/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/rrm_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble'), ('VSCODE_PID', '2749')]), 'shell': False}
+[0.680126] (vacuum_robot) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target robot_node\n'}
+[0.681441] (vacuum_robot) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lidar_node\n'}
+[0.699619] (vacuum_robot) StdoutLine: {'line': b'[ 25%] Linking CXX executable lidar_node\n'}
+[0.699878] (vacuum_robot) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/robot_node.dir/src/robot_node.cpp.o\n'}
+[0.700800] (-) TimerEvent: {}
+[0.800936] (-) TimerEvent: {}
+[0.901227] (-) TimerEvent: {}
+[1.001528] (-) TimerEvent: {}
+[1.101805] (-) TimerEvent: {}
+[1.173351] (vacuum_robot) StdoutLine: {'line': b'[ 75%] Built target lidar_node\n'}
+[1.202021] (-) TimerEvent: {}
+[1.302330] (-) TimerEvent: {}
+[1.402630] (-) TimerEvent: {}
+[1.502858] (-) TimerEvent: {}
+[1.603069] (-) TimerEvent: {}
+[1.703347] (-) TimerEvent: {}
+[1.803524] (-) TimerEvent: {}
+[1.903744] (-) TimerEvent: {}
+[2.003957] (-) TimerEvent: {}
+[2.104269] (-) TimerEvent: {}
+[2.204648] (-) TimerEvent: {}
+[2.305066] (-) TimerEvent: {}
+[2.405249] (-) TimerEvent: {}
+[2.505467] (-) TimerEvent: {}
+[2.605637] (-) TimerEvent: {}
+[2.705850] (-) TimerEvent: {}
+[2.806105] (-) TimerEvent: {}
+[2.906292] (-) TimerEvent: {}
+[3.006467] (-) TimerEvent: {}
+[3.106684] (-) TimerEvent: {}
+[3.206892] (-) TimerEvent: {}
+[3.307165] (-) TimerEvent: {}
+[3.407447] (-) TimerEvent: {}
+[3.507730] (-) TimerEvent: {}
+[3.607931] (-) TimerEvent: {}
+[3.708136] (-) TimerEvent: {}
+[3.808416] (-) TimerEvent: {}
+[3.908652] (-) TimerEvent: {}
+[4.008884] (-) TimerEvent: {}
+[4.109082] (-) TimerEvent: {}
+[4.209409] (-) TimerEvent: {}
+[4.309721] (-) TimerEvent: {}
+[4.410025] (-) TimerEvent: {}
+[4.510294] (-) TimerEvent: {}
+[4.610614] (-) TimerEvent: {}
+[4.710914] (-) TimerEvent: {}
+[4.811216] (-) TimerEvent: {}
+[4.911517] (-) TimerEvent: {}
+[5.011821] (-) TimerEvent: {}
+[5.112139] (-) TimerEvent: {}
+[5.212436] (-) TimerEvent: {}
+[5.312737] (-) TimerEvent: {}
+[5.412955] (-) TimerEvent: {}
+[5.513206] (-) TimerEvent: {}
+[5.613512] (-) TimerEvent: {}
+[5.713756] (-) TimerEvent: {}
+[5.814047] (-) TimerEvent: {}
+[5.914379] (-) TimerEvent: {}
+[6.014641] (-) TimerEvent: {}
+[6.114950] (-) TimerEvent: {}
+[6.215358] (-) TimerEvent: {}
+[6.315617] (-) TimerEvent: {}
+[6.415780] (-) TimerEvent: {}
+[6.515930] (-) TimerEvent: {}
+[6.616080] (-) TimerEvent: {}
+[6.716256] (-) TimerEvent: {}
+[6.816406] (-) TimerEvent: {}
+[6.916548] (-) TimerEvent: {}
+[7.016727] (-) TimerEvent: {}
+[7.116925] (-) TimerEvent: {}
+[7.217151] (-) TimerEvent: {}
+[7.317469] (-) TimerEvent: {}
+[7.417633] (-) TimerEvent: {}
+[7.517824] (-) TimerEvent: {}
+[7.618008] (-) TimerEvent: {}
+[7.718211] (-) TimerEvent: {}
+[7.818405] (-) TimerEvent: {}
+[7.918575] (-) TimerEvent: {}
+[8.018768] (-) TimerEvent: {}
+[8.119028] (-) TimerEvent: {}
+[8.219204] (-) TimerEvent: {}
+[8.319424] (-) TimerEvent: {}
+[8.419599] (-) TimerEvent: {}
+[8.519980] (-) TimerEvent: {}
+[8.620247] (-) TimerEvent: {}
+[8.720428] (-) TimerEvent: {}
+[8.820652] (-) TimerEvent: {}
+[8.920885] (-) TimerEvent: {}
+[9.021114] (-) TimerEvent: {}
+[9.121393] (-) TimerEvent: {}
+[9.221606] (-) TimerEvent: {}
+[9.321878] (-) TimerEvent: {}
+[9.422056] (-) TimerEvent: {}
+[9.522284] (-) TimerEvent: {}
+[9.622706] (-) TimerEvent: {}
+[9.722982] (-) TimerEvent: {}
+[9.823190] (-) TimerEvent: {}
+[9.923474] (-) TimerEvent: {}
+[10.023671] (-) TimerEvent: {}
+[10.123957] (-) TimerEvent: {}
+[10.224315] (-) TimerEvent: {}
+[10.267032] (vacuum_robot) StdoutLine: {'line': b'[100%] Linking CXX executable robot_node\n'}
+[10.324375] (-) TimerEvent: {}
+[10.424654] (-) TimerEvent: {}
+[10.524850] (-) TimerEvent: {}
+[10.625086] (-) TimerEvent: {}
+[10.725376] (-) TimerEvent: {}
+[10.825704] (-) TimerEvent: {}
+[10.926010] (-) TimerEvent: {}
+[11.026328] (-) TimerEvent: {}
+[11.126610] (-) TimerEvent: {}
+[11.226903] (-) TimerEvent: {}
+[11.327163] (-) TimerEvent: {}
+[11.427444] (-) TimerEvent: {}
+[11.527634] (-) TimerEvent: {}
+[11.599232] (vacuum_robot) StdoutLine: {'line': b'[100%] Built target robot_node\n'}
+[11.610296] (vacuum_robot) CommandEnded: {'returncode': 0}
+[11.611009] (vacuum_robot) JobProgress: {'identifier': 'vacuum_robot', 'progress': 'install'}
+[11.617825] (vacuum_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adam/opk/zadanie2/build/vacuum_robot'], 'cwd': '/home/adam/opk/zadanie2/build/vacuum_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/adam'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code/2.1.126/agent'), ('USER', 'adam'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'de_DE.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adam'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/adam/opk'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-48be565a-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1757'), ('SYSTEMD_EXEC_PID', '2175'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2749'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/adam/rrm_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'adam'), ('JOURNAL_STREAM', '8:3924'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adam'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adam-AORUS-15-YE5:@/tmp/.ICE-unix/2139,unix/adam-AORUS-15-YE5:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '9ad75880fca74b0baf5d2a8e59cb5f7e'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adam/opk/zadanie2/build/vacuum_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/adam/.config/Code/CachedData/072586267e68ece9a47aa43f8c108e0dcbf44622'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/adam/.vscode/extensions/anthropic.claude-code-2.1.126-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/zad6ik/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/zad4/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/rrm_projekt/local/lib/python3.10/dist-packages:/home/adam/rrm_ws/install/rrm_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble'), ('VSCODE_PID', '2749')]), 'shell': False}
+[11.624815] (vacuum_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.625088] (vacuum_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.625262] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/robot_node\n'}
+[11.627714] (-) TimerEvent: {}
+[11.634865] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/lidar_node\n'}
+[11.641929] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/package_run_dependencies/vacuum_robot\n'}
+[11.650291] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/parent_prefix_path/vacuum_robot\n'}
+[11.659774] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.sh\n'}
+[11.666955] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.dsv\n'}
+[11.676434] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.sh\n'}
+[11.685783] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.dsv\n'}
+[11.691992] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.bash\n'}
+[11.699117] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.sh\n'}
+[11.707733] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.zsh\n'}
+[11.714143] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.dsv\n'}
+[11.723203] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.dsv\n'}
+[11.727920] (-) TimerEvent: {}
+[11.731057] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/packages/vacuum_robot\n'}
+[11.738084] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig.cmake\n'}
+[11.747376] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig-version.cmake\n'}
+[11.753213] (vacuum_robot) StdoutLine: {'line': b'-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.xml\n'}
+[11.761905] (vacuum_robot) CommandEnded: {'returncode': 0}
+[11.777189] (vacuum_robot) JobEnded: {'identifier': 'vacuum_robot', 'rc': 0}
+[11.777771] (-) EventReactorShutdown: {}

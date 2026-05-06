@@ -1,0 +1,59 @@
+[0.009s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_game -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_game
+[0.021s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.106s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.158s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.159s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.224s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.251s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.258s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.267s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.287s] -- Found vacuum_core: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake)
+[0.293s] -- Found vacuum_msgs: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake)
+[0.305s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.348s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.348s] -- Configured cppcheck include dirs: 
+[0.348s] -- Configured cppcheck exclude dirs and/or files: 
+[0.348s] -- Added test 'lint_cmake' to check CMake code style
+[0.348s] -- Added test 'uncrustify' to check C / C++ code style
+[0.349s] -- Configured uncrustify additional arguments: 
+[0.349s] -- Added test 'xmllint' to check XML markup files
+[0.349s] -- Configuring done
+[0.361s] -- Generating done
+[0.365s] -- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_game
+[0.371s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_game -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_game
+[0.371s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[0.400s] [35m[1mConsolidate compiler generated dependencies of target teleop_node[0m
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target bot_node[0m
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.411s] [ 33%] Built target teleop_node
+[0.413s] [ 66%] Built target bot_node
+[0.417s] [100%] Built target game_node
+[0.425s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[0.427s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game
+[0.432s] -- Install configuration: ""
+[0.432s] -- Execute custom install script
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/game_node
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/teleop_node
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/bot_node
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/package_run_dependencies/vacuum_game
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/parent_prefix_path/vacuum_game
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.sh
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.dsv
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.sh
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.dsv
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.bash
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.sh
+[0.433s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.zsh
+[0.434s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.dsv
+[0.434s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.dsv
+[0.441s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/packages/vacuum_game
+[0.441s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig.cmake
+[0.441s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig-version.cmake
+[0.441s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.xml
+[0.443s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game

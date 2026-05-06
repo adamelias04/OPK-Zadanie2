@@ -1,0 +1,83 @@
+[0.009s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_game -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_game
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.084s] -- The CXX compiler identification is GNU 11.4.0
+[0.089s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.314s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.401s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.439s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.504s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.506s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.599s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.642s] -- Looking for pthread.h
+[0.701s] -- Looking for pthread.h - found
+[0.701s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.754s] -- Found Threads: TRUE  
+[0.803s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.812s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.826s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.855s] -- Found vacuum_core: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake)
+[0.866s] -- Found vacuum_msgs: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake)
+[0.883s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.942s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.942s] -- Configured cppcheck include dirs: 
+[0.942s] -- Configured cppcheck exclude dirs and/or files: 
+[0.943s] -- Added test 'lint_cmake' to check CMake code style
+[0.944s] -- Added test 'uncrustify' to check C / C++ code style
+[0.944s] -- Configured uncrustify additional arguments: 
+[0.944s] -- Added test 'xmllint' to check XML markup files
+[0.945s] -- Configuring done
+[0.963s] -- Generating done
+[0.967s] -- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_game
+[0.976s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_game -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_game
+[0.976s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[1.016s] [ 16%] Building CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o
+[1.017s] [ 33%] Building CXX object CMakeFiles/bot_node.dir/src/bot_node.cpp.o
+[1.017s] [ 50%] Building CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o
+[5.386s] [ 66%] Linking CXX executable teleop_node
+[5.552s] [ 66%] Built target teleop_node
+[6.191s] [ 83%] Linking CXX executable game_node
+[6.657s] [ 83%] Built target game_node
+[7.955s] [100%] Linking CXX executable bot_node
+[8.571s] [100%] Built target bot_node
+[8.580s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[8.582s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game
+[8.588s] -- Install configuration: ""
+[8.588s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/game_node
+[8.589s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/game_node" to ""
+[8.590s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/teleop_node
+[8.590s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/teleop_node" to ""
+[8.590s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/bot_node
+[8.593s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/bot_node" to ""
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/package_run_dependencies/vacuum_game
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/parent_prefix_path/vacuum_game
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.sh
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.dsv
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.sh
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.dsv
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.bash
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.sh
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.zsh
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.dsv
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.dsv
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/packages/vacuum_game
+[8.594s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig.cmake
+[8.595s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig-version.cmake
+[8.595s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.xml
+[8.595s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game

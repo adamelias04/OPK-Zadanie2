@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c82d10619e9e394795d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "vacuum_msgs__py",
+					"jsonFile" : "directory-vacuum_msgs__py-807bcbfaf9fa0dbc919a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/adam/opk/zadanie2/build/vacuum_msgs/vacuum_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vacuum_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vacuum_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vacuum_msgs_egg-ab3b9a36784cb30bfdf3.json",
+					"name" : "ament_cmake_python_build_vacuum_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_vacuum_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_vacuum_msgs-0dc9558682792f0f1d60.json",
+					"name" : "ament_cmake_python_symlink_vacuum_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-900b41bed050ed391931.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs-0df046a189181cf9752b.json",
+					"name" : "vacuum_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__cpp-f3055fc58e9b1a39609d.json",
+					"name" : "vacuum_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vacuum_msgs__py::@3dbf3c2362242cbce071",
+					"jsonFile" : "target-vacuum_msgs__py-bcd92704f62d2e25dda9.json",
+					"name" : "vacuum_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_generator_c-038b8bcbbf34215f0478.json",
+					"name" : "vacuum_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_generator_py-24f51fc1636ce59e6ac7.json",
+					"name" : "vacuum_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_c-ca3d65d7b77118f869ff.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_c__pyext-a1c1c848e88961b0071c.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_cpp-ae2943e805cb6a449da3.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_fastrtps_c-5b17ec1c51246660f061.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_fastrtps_c__pyext-a2d098467e85f4d91eae.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_fastrtps_cpp-6ce5b46849c09fb0f608.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_introspection_c-2d55fa154d9518e5dcb5.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_introspection_c__pyext-2462cac9d3f1f3702373.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs__rosidl_typesupport_introspection_cpp-d944fcebed3a325be925.json",
+					"name" : "vacuum_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_msgs_uninstall-057844194fa606ed6cb5.json",
+					"name" : "vacuum_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adam/opk/zadanie2/build/vacuum_msgs",
+		"source" : "/home/adam/opk/zadanie2/src/vacuum_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

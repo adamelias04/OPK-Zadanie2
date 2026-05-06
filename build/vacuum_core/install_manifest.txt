@@ -1,0 +1,3 @@
+/home/adam/opk/zadanie2/install/vacuum_core/lib/libvacuum_core.so
+/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/export_vacuum_coreExport.cmake
+/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/export_vacuum_coreExport-noconfig.cmake

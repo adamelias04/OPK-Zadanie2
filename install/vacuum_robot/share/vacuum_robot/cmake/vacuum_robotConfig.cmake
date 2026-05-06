@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_robot/ament_cmake_core/vacuum_robotConfig.cmake

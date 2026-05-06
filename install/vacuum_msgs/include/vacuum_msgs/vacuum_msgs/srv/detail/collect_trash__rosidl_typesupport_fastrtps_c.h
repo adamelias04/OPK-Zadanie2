@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_typesupport_fastrtps_c/vacuum_msgs/srv/detail/collect_trash__rosidl_typesupport_fastrtps_c.h

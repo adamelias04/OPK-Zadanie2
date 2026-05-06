@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/adam/opk/zadanie2/build/vacuum_robot/robot_node" "/home/adam/opk/zadanie2/build/vacuum_robot/lidar_node" "TARGETS" "robot_node" "lidar_node" "DESTINATION" "lib/vacuum_robot")

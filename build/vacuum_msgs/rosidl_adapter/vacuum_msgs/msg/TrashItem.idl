@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vacuum_msgs/msg/TrashItem.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/ColorRGBA.idl"
+
+module vacuum_msgs {
+  module msg {
+    struct TrashItem {
+      uint32 id;
+
+      string type;
+
+      geometry_msgs::msg::Point position;
+
+      float radius;
+
+      std_msgs::msg::ColorRGBA color;
+
+      int32 score_value;
+    };
+  };
+};

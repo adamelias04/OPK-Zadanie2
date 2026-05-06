@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vacuum_msgs__py",
+		"source" : "/home/adam/opk/zadanie2/build/vacuum_msgs/vacuum_msgs__py"
+	}
+}

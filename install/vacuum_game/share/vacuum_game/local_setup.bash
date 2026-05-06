@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_game/ament_cmake_environment_hooks/local_setup.bash

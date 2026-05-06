@@ -1,0 +1,32 @@
+[0.021s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[0.062s] Consolidate compiler generated dependencies of target bot_node
+[0.062s] Consolidate compiler generated dependencies of target teleop_node
+[0.063s] Consolidate compiler generated dependencies of target game_node
+[0.076s] [ 16%] Building CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o
+[0.077s] [ 83%] Built target teleop_node
+[0.077s] [ 83%] Built target bot_node
+[5.471s] [100%] Linking CXX executable game_node
+[5.978s] [100%] Built target game_node
+[5.988s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[5.996s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game
+[6.003s] -- Install configuration: ""
+[6.003s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/game_node
+[6.005s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/game_node" to ""
+[6.006s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/teleop_node
+[6.006s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/bot_node
+[6.006s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/package_run_dependencies/vacuum_game
+[6.006s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/parent_prefix_path/vacuum_game
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.sh
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.dsv
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.sh
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.dsv
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.bash
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.sh
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.zsh
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.dsv
+[6.007s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.dsv
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/packages/vacuum_game
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig.cmake
+[6.007s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig-version.cmake
+[6.008s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.xml
+[6.009s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game

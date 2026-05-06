@@ -1,0 +1,9 @@
+[0.007s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12
+[0.049s] failed to create symbolic link '/home/adam/opk/zadanie2/build/vacuum_msgs/ament_cmake_python/vacuum_msgs/vacuum_msgs' because existing path cannot be removed: Is a directory
+[0.049s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vacuum_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vacuum_msgs] Error 1
+[0.049s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_vacuum_msgs.dir/all] Error 2
+[0.049s] gmake[1]: *** Waiting for unfinished jobs....
+[0.052s] [  1%] Built target vacuum_msgs__cpp
+[0.056s] [ 12%] Built target vacuum_msgs__rosidl_generator_c
+[0.058s] gmake: *** [Makefile:146: all] Error 2
+[0.061s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12

@@ -1,0 +1,15 @@
+setup.py
+vacuum_msgs/__init__.py
+vacuum_msgs.egg-info/PKG-INFO
+vacuum_msgs.egg-info/SOURCES.txt
+vacuum_msgs.egg-info/dependency_links.txt
+vacuum_msgs.egg-info/top_level.txt
+vacuum_msgs/msg/__init__.py
+vacuum_msgs/msg/_game_state.py
+vacuum_msgs/msg/_robot_status.py
+vacuum_msgs/msg/_trash_count.py
+vacuum_msgs/msg/_trash_item.py
+vacuum_msgs/srv/__init__.py
+vacuum_msgs/srv/_collect_trash.py
+vacuum_msgs/srv/_reset_game.py
+vacuum_msgs/srv/_unload_trash.py

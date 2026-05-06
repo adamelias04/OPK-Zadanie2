@@ -1,0 +1,109 @@
+[0.007s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_core -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_core
+[0.218s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.274s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.345s] -- Detecting C compile features
+[0.346s] -- Detecting C compile features - done
+[0.348s] -- Detecting CXX compiler ABI info
+[0.404s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.411s] -- Detecting CXX compile features
+[0.411s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.621s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.624s] -- Looking for pthread.h
+[0.675s] -- Looking for pthread.h - found
+[0.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.727s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.728s] -- Found Threads: TRUE  
+[0.738s] -- Found ament_cmake_gtest: 1.3.13 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.740s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.786s] -- Configuring done
+[0.797s] -- Generating done
+[0.801s] -- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_core
+[0.804s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_core -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_core
+[0.805s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_core -- -j12 -l12
+[0.842s] [  4%] Building CXX object CMakeFiles/vacuum_core.dir/src/Environment.cpp.o
+[0.842s] [  9%] Building CXX object CMakeFiles/vacuum_core.dir/src/TrashFactory.cpp.o
+[0.842s] [ 14%] Building CXX object CMakeFiles/vacuum_core.dir/src/GameLogic.cpp.o
+[0.842s] [ 19%] Building CXX object CMakeFiles/vacuum_core.dir/src/BotController.cpp.o
+[0.842s] [ 23%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[0.843s] [ 28%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[0.843s] [ 33%] Building CXX object CMakeFiles/vacuum_core.dir/src/WorldManager.cpp.o
+[0.844s] [ 38%] Building CXX object CMakeFiles/vacuum_core.dir/src/Robot.cpp.o
+[0.844s] [ 42%] Building CXX object CMakeFiles/vacuum_core.dir/src/Lidar.cpp.o
+[0.845s] [ 47%] Building CXX object CMakeFiles/vacuum_core.dir/src/ConfigLoader.cpp.o
+[1.470s] [ 52%] Linking CXX static library libgtest_main.a
+[1.511s] [ 52%] Built target gtest_main
+[1.826s] [ 57%] Linking CXX shared library libvacuum_core.so
+[1.934s] [ 57%] Built target vacuum_core
+[3.117s] [ 61%] Linking CXX static library libgtest.a
+[3.172s] [ 61%] Built target gtest
+[3.200s] [ 66%] Building CXX object CMakeFiles/test_world_manager.dir/test/test_world_manager.cpp.o
+[3.205s] [ 71%] Building CXX object CMakeFiles/test_config_loader.dir/test/test_config_loader.cpp.o
+[3.215s] [ 76%] Building CXX object CMakeFiles/test_trash_factory.dir/test/test_trash_factory.cpp.o
+[3.215s] [ 80%] Building CXX object CMakeFiles/test_bot_controller.dir/test/test_bot_controller.cpp.o
+[4.466s] [ 85%] Linking CXX executable test_config_loader
+[4.468s] [ 90%] Linking CXX executable test_trash_factory
+[4.472s] [ 95%] Linking CXX executable test_world_manager
+[4.548s] [100%] Linking CXX executable test_bot_controller
+[4.741s] [100%] Built target test_world_manager
+[4.804s] [100%] Built target test_trash_factory
+[4.804s] [100%] Built target test_config_loader
+[4.861s] [100%] Built target test_bot_controller
+[4.871s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_core -- -j12 -l12
+[4.877s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_core
+[4.881s] -- Install configuration: ""
+[4.881s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include
+[4.881s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core
+[4.881s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/config
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/config/ConfigLoader.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/config/GameConfig.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/WorldObject.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/Obstacle.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/WorldManager.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/Station.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/Collectible.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/TrashFactory.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/environment
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/environment/Environment.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/lidar
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/lidar/Lidar.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/util
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/util/Exception.h
+[4.882s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/types
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/types/Geometry.h
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/game
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/game/BotController.h
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/game/GameLogic.h
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/robot
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/robot/Robot.h
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/lib/libvacuum_core.so
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/library_path.sh
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/library_path.dsv
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/ament_index/resource_index/package_run_dependencies/vacuum_core
+[4.883s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/ament_index/resource_index/parent_prefix_path/vacuum_core
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/ament_prefix_path.sh
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/ament_prefix_path.dsv
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/path.sh
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/path.dsv
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/local_setup.bash
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/local_setup.sh
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/local_setup.zsh
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/local_setup.dsv
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.dsv
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/ament_index/resource_index/packages/vacuum_core
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/export_vacuum_coreExport.cmake
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/export_vacuum_coreExport-noconfig.cmake
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.884s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/ament_cmake_export_libraries-extras.cmake
+[4.885s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/ament_cmake_export_targets-extras.cmake
+[4.885s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.885s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/vacuum_coreConfig.cmake
+[4.885s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/vacuum_coreConfig-version.cmake
+[4.885s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.xml
+[4.885s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_core

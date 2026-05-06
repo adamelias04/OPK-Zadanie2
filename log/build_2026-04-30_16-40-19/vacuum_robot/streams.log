@@ -1,0 +1,84 @@
+[0.009s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_robot': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_robot -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_robot
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.157s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.228s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.347s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.406s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.432s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.435s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.458s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.499s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.502s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.577s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.593s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.625s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.640s] -- Looking for pthread.h
+[0.700s] -- Looking for pthread.h - found
+[0.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.758s] -- Found Threads: TRUE  
+[0.796s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.805s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.817s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.828s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[0.835s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.920s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.929s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.930s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.930s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.931s] -- Found vacuum_core: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake)
+[0.939s] -- Found vacuum_msgs: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake)
+[0.953s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.003s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.003s] -- Configured cppcheck include dirs: 
+[1.003s] -- Configured cppcheck exclude dirs and/or files: 
+[1.003s] -- Added test 'lint_cmake' to check CMake code style
+[1.004s] -- Added test 'uncrustify' to check C / C++ code style
+[1.004s] -- Configured uncrustify additional arguments: 
+[1.004s] -- Added test 'xmllint' to check XML markup files
+[1.005s] -- Configuring done
+[1.017s] -- Generating done
+[1.022s] -- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_robot
+[1.028s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_robot' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_robot -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_robot
+[1.029s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_robot': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_robot -- -j12 -l12
+[1.071s] [ 25%] Building CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o
+[1.074s] [ 50%] Building CXX object CMakeFiles/robot_node.dir/src/robot_node.cpp.o
+[6.501s] [ 75%] Linking CXX executable lidar_node
+[6.961s] [ 75%] Built target lidar_node
+[10.749s] [100%] Linking CXX executable robot_node
+[11.398s] [100%] Built target robot_node
+[11.407s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_robot' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_robot -- -j12 -l12
+[11.409s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_robot': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_robot
+[11.413s] -- Install configuration: ""
+[11.413s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/robot_node
+[11.417s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/robot_node" to ""
+[11.417s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/lidar_node
+[11.418s] -- Set runtime path of "/home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/lidar_node" to ""
+[11.418s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/package_run_dependencies/vacuum_robot
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/parent_prefix_path/vacuum_robot
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.sh
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.dsv
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.sh
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.dsv
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.bash
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.sh
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.zsh
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.dsv
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.dsv
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/packages/vacuum_robot
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig.cmake
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig-version.cmake
+[11.419s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.xml
+[11.420s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_robot' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_robot

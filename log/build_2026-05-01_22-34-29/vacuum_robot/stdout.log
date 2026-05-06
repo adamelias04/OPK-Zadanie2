@@ -1,0 +1,56 @@
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found vacuum_core: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake)
+-- Found vacuum_msgs: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_robot
+[35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[ 50%] Built target robot_node
+[100%] Built target lidar_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/robot_node
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/lidar_node
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/package_run_dependencies/vacuum_robot
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/parent_prefix_path/vacuum_robot
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.sh
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.dsv
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.bash
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.sh
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.zsh
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.dsv
+-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.dsv
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/packages/vacuum_robot
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig.cmake
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig-version.cmake
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.xml

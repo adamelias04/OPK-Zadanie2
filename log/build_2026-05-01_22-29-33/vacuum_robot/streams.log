@@ -1,0 +1,65 @@
+[0.018s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_robot': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_robot
+[0.035s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.155s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.160s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.182s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.184s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.188s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.205s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.246s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.249s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.369s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.422s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.430s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.442s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.453s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[0.457s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.518s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.521s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.522s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.524s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.537s] -- Found vacuum_core: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake)
+[0.543s] -- Found vacuum_msgs: 0.1.0 (/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/cmake)
+[0.557s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.609s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.609s] -- Configured cppcheck include dirs: 
+[0.609s] -- Configured cppcheck exclude dirs and/or files: 
+[0.610s] -- Added test 'lint_cmake' to check CMake code style
+[0.610s] -- Added test 'uncrustify' to check C / C++ code style
+[0.610s] -- Configured uncrustify additional arguments: 
+[0.611s] -- Added test 'xmllint' to check XML markup files
+[0.611s] -- Configuring done
+[0.625s] -- Generating done
+[0.629s] -- Build files have been written to: /home/adam/opk/zadanie2/build/vacuum_robot
+[0.634s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_robot' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/vacuum_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/vacuum_robot
+[0.636s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_robot': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_robot -- -j12 -l12
+[0.680s] Consolidate compiler generated dependencies of target robot_node
+[0.681s] Consolidate compiler generated dependencies of target lidar_node
+[0.699s] [ 25%] Linking CXX executable lidar_node
+[0.699s] [ 50%] Building CXX object CMakeFiles/robot_node.dir/src/robot_node.cpp.o
+[1.173s] [ 75%] Built target lidar_node
+[10.267s] [100%] Linking CXX executable robot_node
+[11.599s] [100%] Built target robot_node
+[11.610s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_robot' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_robot -- -j12 -l12
+[11.618s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_robot': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_robot
+[11.624s] -- Install configuration: ""
+[11.624s] -- Execute custom install script
+[11.625s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/robot_node
+[11.634s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/lidar_node
+[11.641s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/package_run_dependencies/vacuum_robot
+[11.650s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/parent_prefix_path/vacuum_robot
+[11.659s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.sh
+[11.666s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.dsv
+[11.676s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.sh
+[11.685s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.dsv
+[11.692s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.bash
+[11.699s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.sh
+[11.707s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.zsh
+[11.714s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.dsv
+[11.723s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.dsv
+[11.731s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/packages/vacuum_robot
+[11.738s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig.cmake
+[11.747s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig-version.cmake
+[11.753s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.xml
+[11.761s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_robot' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/vacuum_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_robot

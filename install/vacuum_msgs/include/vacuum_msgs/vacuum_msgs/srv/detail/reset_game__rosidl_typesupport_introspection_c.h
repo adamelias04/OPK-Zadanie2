@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_typesupport_introspection_c/vacuum_msgs/srv/detail/reset_game__rosidl_typesupport_introspection_c.h

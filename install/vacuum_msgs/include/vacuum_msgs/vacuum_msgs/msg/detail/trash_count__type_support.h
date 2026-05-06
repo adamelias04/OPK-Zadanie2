@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/vacuum_msgs/rosidl_generator_c/vacuum_msgs/msg/detail/trash_count__type_support.h
