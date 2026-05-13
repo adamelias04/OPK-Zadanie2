@@ -1,0 +1,15 @@
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/uninstall.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/nodes_uninstall.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/robot_node.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/lidar_node.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/game_node.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/teleop_node.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/bot_node.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/pvp_teleop_node.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/test.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/edit_cache.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/rebuild_cache.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/list_install_components.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/install.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/install/local.dir
+/home/adam/opk/zadanie2/build/nodes/CMakeFiles/install/strip.dir

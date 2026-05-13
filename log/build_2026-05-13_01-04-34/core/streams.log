@@ -1,0 +1,8 @@
+[0.010s] Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/core -- -j12 -l12
+[0.053s] [  9%] Built target gtest_main
+[0.054s] [ 19%] Built target gtest
+[0.055s] [ 61%] Built target core
+[0.079s] [ 71%] Built target test_config_loader
+[0.079s] [ 80%] Built target test_world_manager
+[0.079s] [ 90%] Built target test_bot_controller
+[0.082s] [100%] Built target test_trash_factory

@@ -1,0 +1,243 @@
+[0.216s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.216s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74ef3d24c3d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74ef3d21b370>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74ef3d21b370>>)
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.315s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adam/opk/zadanie2'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bringup' with type 'ros.ament_cmake' and name 'bringup'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/core' with type 'ros.ament_cmake' and name 'core'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msgs' with type 'ros.ament_cmake' and name 'msgs'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nodes' with type 'ros.ament_cmake' and name 'nodes'
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/adam/opk/zadanie2/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/adam/rrm_ws/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/adam/install
+[0.347s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/core', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/core', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/msgs', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/msgs', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/bringup', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/bringup', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/nodes', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/nodes', 'symlink_install': False, 'test_result_base': None}
+[0.379s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.380s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.380s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/core' with build type 'ament_cmake'
+[0.380s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/core'
+[0.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/msgs' with build type 'ament_cmake'
+[0.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/msgs'
+[0.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/core -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/core
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/msgs -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/msgs
+[0.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/core -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/core
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/core -- -j12 -l12
+[0.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/core -- -j12 -l12
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/core
+[0.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[0.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/core
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core' for CMake module files
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core' for CMake config files
+[0.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.sh'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib'
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'ld_library_path_lib')
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.sh'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/bin'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib/pkgconfig/core.pc'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib/python3.10/site-packages'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/bin'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/core/share/core/package.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.sh'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.bash'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.zsh'
+[0.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/core/share/colcon-core/packages/core)
+[0.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core' for CMake module files
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core' for CMake config files
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.sh'
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib'
+[0.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'ld_library_path_lib')
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.sh'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/bin'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib/pkgconfig/core.pc'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib/python3.10/site-packages'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/bin'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.ps1'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/core/share/core/package.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.sh'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.bash'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.zsh'
+[0.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/core/share/colcon-core/packages/core)
+[1.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/msgs -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/msgs
+[1.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/msgs -- -j12 -l12
+[1.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/msgs -- -j12 -l12
+[1.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs)
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs' for CMake module files
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs' for CMake config files
+[1.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'cmake_prefix_path')
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.sh'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib'
+[1.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'ld_library_path_lib')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.sh'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/bin'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib/pkgconfig/msgs.pc'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib/python3.10/site-packages'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/bin'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.dsv'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.sh'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.bash'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.zsh'
+[1.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/msgs/share/colcon-core/packages/msgs)
+[1.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.464s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.474s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.489s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.ps1'
+[1.491s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/opk/zadanie2/install/_local_setup_util_ps1.py'
+[1.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.sh'
+[1.496s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/opk/zadanie2/install/_local_setup_util_sh.py'
+[1.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.sh'
+[1.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.bash'
+[1.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.bash'
+[1.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.zsh'
+[1.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.zsh'

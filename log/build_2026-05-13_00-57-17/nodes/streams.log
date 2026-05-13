@@ -1,0 +1,80 @@
+[0.015s] Invoking command in '/home/adam/opk/zadanie2/build/nodes': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/nodes:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/home/adam/rrm_ws/install/abb_irb4600_ikfast/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adam/opk/zadanie2/src/nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/nodes
+[0.024s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.120s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.125s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.143s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.145s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.184s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.186s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.263s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.302s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.311s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.326s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.340s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[0.342s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.404s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.406s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.407s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.408s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.420s] -- Found core: 0.1.0 (/home/adam/opk/zadanie2/install/core/share/core/cmake)
+[0.426s] -- Found msgs: 0.1.0 (/home/adam/opk/zadanie2/install/msgs/share/msgs/cmake)
+[0.450s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.497s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.497s] -- Configured cppcheck include dirs: 
+[0.497s] -- Configured cppcheck exclude dirs and/or files: 
+[0.497s] -- Added test 'lint_cmake' to check CMake code style
+[0.498s] -- Added test 'uncrustify' to check C / C++ code style
+[0.498s] -- Configured uncrustify additional arguments: 
+[0.498s] -- Added test 'xmllint' to check XML markup files
+[0.499s] -- Configuring done
+[0.523s] -- Generating done
+[0.531s] -- Build files have been written to: /home/adam/opk/zadanie2/build/nodes
+[0.537s] Invoked command in '/home/adam/opk/zadanie2/build/nodes' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/nodes:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/home/adam/rrm_ws/install/abb_irb4600_ikfast/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/adam/opk/zadanie2/src/nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/nodes
+[0.540s] Invoking command in '/home/adam/opk/zadanie2/build/nodes': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/nodes:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/home/adam/rrm_ws/install/abb_irb4600_ikfast/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adam/opk/zadanie2/build/nodes -- -j12 -l12
+[0.585s] [35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target teleop_node[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target bot_node[0m
+[0.602s] [  8%] [32mBuilding CXX object CMakeFiles/pvp_teleop_node.dir/src/pvp_teleop_node.cpp.o[0m
+[0.610s] [ 16%] [32m[1mLinking CXX executable lidar_node[0m
+[0.621s] [ 33%] [32m[1mLinking CXX executable bot_node[0m
+[0.621s] [ 33%] [32m[1mLinking CXX executable teleop_node[0m
+[0.623s] [ 41%] [32m[1mLinking CXX executable robot_node[0m
+[0.628s] [ 50%] [32m[1mLinking CXX executable game_node[0m
+[0.814s] [ 58%] Built target teleop_node
+[1.469s] [ 66%] Built target lidar_node
+[1.541s] [ 75%] Built target game_node
+[1.548s] [ 83%] Built target bot_node
+[1.669s] [ 91%] Built target robot_node
+[3.476s] [100%] [32m[1mLinking CXX executable pvp_teleop_node[0m
+[3.599s] [100%] Built target pvp_teleop_node
+[3.609s] Invoked command in '/home/adam/opk/zadanie2/build/nodes' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/nodes:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/home/adam/rrm_ws/install/abb_irb4600_ikfast/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adam/opk/zadanie2/build/nodes -- -j12 -l12
+[3.618s] Invoking command in '/home/adam/opk/zadanie2/build/nodes': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/nodes:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/home/adam/rrm_ws/install/abb_irb4600_ikfast/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adam/opk/zadanie2/build/nodes
+[3.622s] -- Install configuration: ""
+[3.623s] -- Execute custom install script
+[3.623s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/lib/nodes/robot_node
+[3.630s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/lib/nodes/lidar_node
+[3.639s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/lib/nodes/game_node
+[3.650s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/lib/nodes/teleop_node
+[3.660s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/lib/nodes/bot_node
+[3.667s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/lib/nodes/pvp_teleop_node
+[3.677s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+[3.683s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+[3.692s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/environment/ament_prefix_path.sh
+[3.703s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+[3.713s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/environment/path.sh
+[3.723s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/environment/path.dsv
+[3.730s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/local_setup.bash
+[3.739s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/local_setup.sh
+[3.750s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/local_setup.zsh
+[3.760s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/local_setup.dsv
+[3.771s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/package.dsv
+[3.781s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/ament_index/resource_index/packages/nodes
+[3.791s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/cmake/nodesConfig.cmake
+[3.802s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+[3.812s] -- Symlinking: /home/adam/opk/zadanie2/install/nodes/share/nodes/package.xml
+[3.821s] Invoked command in '/home/adam/opk/zadanie2/build/nodes' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/nodes:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:/home/adam/opk/zadanie2/install/vacuum_msgs/lib:/home/adam/opk/zadanie2/install/vacuum_core/lib:/home/adam/rrm_ws/install/zad6ik/lib:/home/adam/rrm_ws/install/zad4/lib:/home/adam/rrm_ws/install/rrm_projekt/lib:/home/adam/rrm_ws/install/rrm_msgs/lib:/home/adam/rrm_ws/install/abb_irb4600_ikfast/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adam/opk/zadanie2/build/nodes

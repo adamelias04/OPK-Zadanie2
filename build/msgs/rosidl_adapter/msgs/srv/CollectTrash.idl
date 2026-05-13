@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msgs/srv/CollectTrash.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "msgs/msg/TrashItem.idl"
+
+module msgs {
+  module srv {
+    struct CollectTrash_Request {
+      string robot_id;
+
+      geometry_msgs::msg::Point robot_pos;
+
+      float robot_radius;
+    };
+    struct CollectTrash_Response {
+      boolean success;
+
+      msgs::msg::TrashItem collected;
+
+      uint32 capacity_used;
+
+      uint32 capacity_max;
+    };
+  };
+};

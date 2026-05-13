@@ -1,0 +1,62 @@
+[0.019s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_core -- -j12 -l12
+[0.106s] [  4%] [32mBuilding CXX object CMakeFiles/vacuum_core.dir/src/ConfigLoader.cpp.o[0m
+[0.106s] [ 14%] Built target gtest_main
+[0.107s] [ 19%] [32mBuilding CXX object CMakeFiles/vacuum_core.dir/src/GameLogic.cpp.o[0m
+[0.108s] [ 28%] Built target gtest
+[0.109s] [ 33%] [32mBuilding CXX object CMakeFiles/vacuum_core.dir/src/BotController.cpp.o[0m
+[1.161s] [ 38%] [32m[1mLinking CXX shared library libvacuum_core.so[0m
+[1.318s] [ 61%] Built target vacuum_core
+[1.344s] [ 66%] [32m[1mLinking CXX executable test_world_manager[0m
+[1.344s] [ 71%] [32m[1mLinking CXX executable test_trash_factory[0m
+[1.344s] [ 76%] [32mBuilding CXX object CMakeFiles/test_bot_controller.dir/test/test_bot_controller.cpp.o[0m
+[1.346s] [ 80%] [32mBuilding CXX object CMakeFiles/test_config_loader.dir/test/test_config_loader.cpp.o[0m
+[1.643s] [ 85%] Built target test_trash_factory
+[1.643s] [ 90%] Built target test_world_manager
+[2.031s] [ 95%] [32m[1mLinking CXX executable test_bot_controller[0m
+[2.290s] [ 95%] Built target test_bot_controller
+[2.424s] [100%] [32m[1mLinking CXX executable test_config_loader[0m
+[2.681s] [100%] Built target test_config_loader
+[2.693s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_core -- -j12 -l12
+[2.695s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_core
+[2.704s] -- Install configuration: ""
+[2.704s] -- Execute custom install script
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/config/ConfigLoader.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/config/GameConfig.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/environment/Environment.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/game/BotController.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/game/GameLogic.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/lidar/Lidar.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/robot/Robot.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/types/Geometry.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/util/Exception.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/Collectible.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/Obstacle.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/Station.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/TrashFactory.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/WorldManager.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/include/vacuum_core/world/WorldObject.h
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/library_path.sh
+[2.705s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/library_path.dsv
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/ament_index/resource_index/package_run_dependencies/vacuum_core
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/ament_index/resource_index/parent_prefix_path/vacuum_core
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/ament_prefix_path.sh
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/ament_prefix_path.dsv
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/path.sh
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/environment/path.dsv
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/local_setup.bash
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/local_setup.sh
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/local_setup.zsh
+[2.706s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/local_setup.dsv
+[2.706s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.dsv
+[2.716s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/ament_index/resource_index/packages/vacuum_core
+[2.716s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.716s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/ament_cmake_export_libraries-extras.cmake
+[2.717s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/ament_cmake_export_targets-extras.cmake
+[2.717s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.717s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/vacuum_coreConfig.cmake
+[2.717s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/vacuum_coreConfig-version.cmake
+[2.717s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.xml
+[2.725s] -- Installing: /home/adam/opk/zadanie2/install/vacuum_core/lib/libvacuum_core.so
+[2.727s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/export_vacuum_coreExport.cmake
+[2.727s] -- Up-to-date: /home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/cmake/export_vacuum_coreExport-noconfig.cmake
+[2.730s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_core

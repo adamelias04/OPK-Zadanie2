@@ -1,0 +1,6 @@
+Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/core
+Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/core
+Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/core -- -j12 -l12
+Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/core -- -j12 -l12
+Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/core
+Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/core

@@ -1,0 +1,413 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73ba09f54130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73ba09f1f0d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73ba09f1f0d0>>)
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.224s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adam/opk/zadanie2'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_bringup) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vacuum_bringup' with type 'ros.ament_cmake' and name 'vacuum_bringup'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_core) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vacuum_core' with type 'ros.ament_cmake' and name 'vacuum_core'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_game) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vacuum_game' with type 'ros.ament_cmake' and name 'vacuum_game'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_msgs) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vacuum_msgs' with type 'ros.ament_cmake' and name 'vacuum_msgs'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vacuum_robot' with type 'ros.ament_cmake' and name 'vacuum_robot'
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/adam/opk/zadanie2/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/adam/rrm_ws/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/adam/install
+[0.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'cmake_target' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'vacuum_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.291s] DEBUG:colcon.colcon_core.verb:Building package 'vacuum_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/vacuum_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/vacuum_core', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/vacuum_core', 'symlink_install': False, 'test_result_base': None}
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'vacuum_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/vacuum_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/vacuum_msgs', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/vacuum_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_game' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'vacuum_game' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/vacuum_game', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/vacuum_game', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/vacuum_game', 'symlink_install': False, 'test_result_base': None}
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'vacuum_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/vacuum_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/vacuum_robot', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/vacuum_robot', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'vacuum_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'vacuum_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/vacuum_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/vacuum_bringup', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/vacuum_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.293s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/vacuum_core' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/vacuum_core'
+[0.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/vacuum_msgs' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/vacuum_msgs'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_core -- -j12 -l12
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12
+[0.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_msgs
+[0.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_msgs)
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_msgs
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs' for CMake module files
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_msgs', 'cmake_prefix_path')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/cmake_prefix_path.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/cmake_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/cmake_prefix_path.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/lib'
+[0.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_msgs', 'ld_library_path_lib')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/ld_library_path_lib.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/ld_library_path_lib.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/ld_library_path_lib.sh'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/bin'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/lib/pkgconfig/vacuum_msgs.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/lib/python3.10/site-packages'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/bin'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.ps1'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.dsv'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.sh'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.bash'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.zsh'
+[0.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_msgs/share/colcon-core/packages/vacuum_msgs)
+[0.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_msgs)
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs' for CMake module files
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs' for CMake config files
+[0.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_msgs', 'cmake_prefix_path')
+[0.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/cmake_prefix_path.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/cmake_prefix_path.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/cmake_prefix_path.sh'
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/lib'
+[0.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_msgs', 'ld_library_path_lib')
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/ld_library_path_lib.ps1'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/ld_library_path_lib.dsv'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/hook/ld_library_path_lib.sh'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/bin'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/lib/pkgconfig/vacuum_msgs.pc'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/lib/python3.10/site-packages'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_msgs/bin'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.ps1'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.dsv'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.sh'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.bash'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_msgs/share/vacuum_msgs/package.zsh'
+[0.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_msgs/share/colcon-core/packages/vacuum_msgs)
+[2.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_core -- -j12 -l12
+[2.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_core
+[3.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_core)
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core' for CMake module files
+[3.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_core
+[3.026s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core' for CMake config files
+[3.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_core', 'cmake_prefix_path')
+[3.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/cmake_prefix_path.ps1'
+[3.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/cmake_prefix_path.dsv'
+[3.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/cmake_prefix_path.sh'
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/lib'
+[3.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_core', 'ld_library_path_lib')
+[3.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/ld_library_path_lib.ps1'
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/ld_library_path_lib.dsv'
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/ld_library_path_lib.sh'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/bin'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/lib/pkgconfig/vacuum_core.pc'
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/lib/python3.10/site-packages'
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/bin'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.ps1'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.dsv'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.sh'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.bash'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.zsh'
+[3.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_core/share/colcon-core/packages/vacuum_core)
+[3.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_core)
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core' for CMake module files
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core' for CMake config files
+[3.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_core', 'cmake_prefix_path')
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/cmake_prefix_path.ps1'
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/cmake_prefix_path.dsv'
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/cmake_prefix_path.sh'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/lib'
+[3.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_core', 'ld_library_path_lib')
+[3.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/ld_library_path_lib.ps1'
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/ld_library_path_lib.dsv'
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/hook/ld_library_path_lib.sh'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/bin'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/lib/pkgconfig/vacuum_core.pc'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/lib/python3.10/site-packages'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_core/bin'
+[3.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.ps1'
+[3.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.dsv'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.sh'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.bash'
+[3.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_core/share/vacuum_core/package.zsh'
+[3.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_core/share/colcon-core/packages/vacuum_core)
+[3.048s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/vacuum_game' with build type 'ament_cmake'
+[3.048s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/vacuum_game'
+[3.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.048s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.053s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/vacuum_robot' with build type 'ament_cmake'
+[3.053s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/vacuum_robot'
+[3.053s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[3.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_robot': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_robot -- -j12 -l12
+[11.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[11.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game
+[11.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_game)
+[11.236s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game' for CMake module files
+[11.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game
+[11.237s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game' for CMake config files
+[11.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_game', 'cmake_prefix_path')
+[11.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/hook/cmake_prefix_path.ps1'
+[11.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/hook/cmake_prefix_path.dsv'
+[11.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/hook/cmake_prefix_path.sh'
+[11.239s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/lib'
+[11.240s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/bin'
+[11.240s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/lib/pkgconfig/vacuum_game.pc'
+[11.240s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/lib/python3.10/site-packages'
+[11.240s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/bin'
+[11.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.ps1'
+[11.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.dsv'
+[11.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.sh'
+[11.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.bash'
+[11.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.zsh'
+[11.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_game/share/colcon-core/packages/vacuum_game)
+[11.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_game)
+[11.242s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game' for CMake module files
+[11.242s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game' for CMake config files
+[11.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_game', 'cmake_prefix_path')
+[11.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/hook/cmake_prefix_path.ps1'
+[11.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/hook/cmake_prefix_path.dsv'
+[11.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/hook/cmake_prefix_path.sh'
+[11.246s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/lib'
+[11.246s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/bin'
+[11.246s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/lib/pkgconfig/vacuum_game.pc'
+[11.247s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/lib/python3.10/site-packages'
+[11.247s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_game/bin'
+[11.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.ps1'
+[11.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.dsv'
+[11.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.sh'
+[11.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.bash'
+[11.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.zsh'
+[11.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_game/share/colcon-core/packages/vacuum_game)
+[13.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_robot' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_robot -- -j12 -l12
+[13.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_robot': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_robot
+[13.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_robot)
+[13.860s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot' for CMake module files
+[13.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_robot' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_robot
+[13.861s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot' for CMake config files
+[13.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_robot', 'cmake_prefix_path')
+[13.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/hook/cmake_prefix_path.ps1'
+[13.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/hook/cmake_prefix_path.dsv'
+[13.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/hook/cmake_prefix_path.sh'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/lib'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/bin'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/lib/pkgconfig/vacuum_robot.pc'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/lib/python3.10/site-packages'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/bin'
+[13.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.ps1'
+[13.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.dsv'
+[13.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.sh'
+[13.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.bash'
+[13.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.zsh'
+[13.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_robot/share/colcon-core/packages/vacuum_robot)
+[13.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_robot)
+[13.864s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot' for CMake module files
+[13.865s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot' for CMake config files
+[13.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_robot', 'cmake_prefix_path')
+[13.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/hook/cmake_prefix_path.ps1'
+[13.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/hook/cmake_prefix_path.dsv'
+[13.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/hook/cmake_prefix_path.sh'
+[13.870s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/lib'
+[13.870s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/bin'
+[13.870s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/lib/pkgconfig/vacuum_robot.pc'
+[13.870s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/lib/python3.10/site-packages'
+[13.871s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_robot/bin'
+[13.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.ps1'
+[13.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.dsv'
+[13.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.sh'
+[13.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.bash'
+[13.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.zsh'
+[13.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_robot/share/colcon-core/packages/vacuum_robot)
+[13.873s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/vacuum_bringup' with build type 'ament_cmake'
+[13.873s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/vacuum_bringup'
+[13.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_bringup': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_bringup -- -j12 -l12
+[13.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_bringup' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_bringup -- -j12 -l12
+[13.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/vacuum_bringup': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_bringup
+[13.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_bringup)
+[13.959s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup' for CMake module files
+[13.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/vacuum_bringup' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_bringup
+[13.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup' for CMake config files
+[13.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_bringup', 'cmake_prefix_path')
+[13.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/hook/cmake_prefix_path.ps1'
+[13.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/hook/cmake_prefix_path.dsv'
+[13.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/hook/cmake_prefix_path.sh'
+[13.963s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup/bin'
+[13.963s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup/lib/pkgconfig/vacuum_bringup.pc'
+[13.963s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup/lib/python3.10/site-packages'
+[13.964s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup/bin'
+[13.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.ps1'
+[13.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.dsv'
+[13.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.sh'
+[13.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.bash'
+[13.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.zsh'
+[13.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_bringup/share/colcon-core/packages/vacuum_bringup)
+[13.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vacuum_bringup)
+[13.966s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup' for CMake module files
+[13.967s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup' for CMake config files
+[13.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_bringup', 'cmake_prefix_path')
+[13.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/hook/cmake_prefix_path.ps1'
+[13.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/hook/cmake_prefix_path.dsv'
+[13.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/hook/cmake_prefix_path.sh'
+[13.970s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup/bin'
+[13.970s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup/lib/pkgconfig/vacuum_bringup.pc'
+[13.971s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup/lib/python3.10/site-packages'
+[13.971s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/vacuum_bringup/bin'
+[13.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.ps1'
+[13.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.dsv'
+[13.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.sh'
+[13.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.bash'
+[13.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/vacuum_bringup/share/vacuum_bringup/package.zsh'
+[13.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/vacuum_bringup/share/colcon-core/packages/vacuum_bringup)
+[13.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.972s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.977s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.977s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.978s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.987s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.ps1'
+[13.988s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/opk/zadanie2/install/_local_setup_util_ps1.py'
+[13.992s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.ps1'
+[13.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.sh'
+[13.993s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/opk/zadanie2/install/_local_setup_util_sh.py'
+[13.993s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.sh'
+[13.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.bash'
+[13.995s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.bash'
+[13.997s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.zsh'
+[13.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.zsh'

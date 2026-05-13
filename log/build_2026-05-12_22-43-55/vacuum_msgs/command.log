@@ -1,0 +1,4 @@
+Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12
+Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_msgs -- -j12 -l12
+Invoking command in '/home/adam/opk/zadanie2/build/vacuum_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_msgs
+Invoked command in '/home/adam/opk/zadanie2/build/vacuum_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_msgs

@@ -1,0 +1,3 @@
+/home/adam/opk/zadanie2/install/core/lib/libcore.so
+/home/adam/opk/zadanie2/install/core/share/core/cmake/export_coreExport.cmake
+/home/adam/opk/zadanie2/install/core/share/core/cmake/export_coreExport-noconfig.cmake

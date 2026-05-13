@@ -1,0 +1,7 @@
+[ 42%] Built target core
+[ 61%] Built target gtest
+[ 61%] Built target gtest_main
+[ 71%] Built target test_world_manager
+[ 80%] Built target test_config_loader
+[ 95%] Built target test_trash_factory
+[100%] Built target test_bot_controller

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msgs/msg/GameState.msg
+// generated code does not contain a copyright notice
+
+#include "msgs/msg/RobotStatus.idl"
+#include "msgs/msg/TrashCount.idl"
+#include "msgs/msg/TrashItem.idl"
+
+module msgs {
+  module msg {
+    struct GameState {
+      string mode;
+
+      string phase;
+
+      float elapsed_seconds;
+
+      int32 score;
+
+      sequence<msgs::msg::TrashCount> collected;
+
+      sequence<msgs::msg::TrashItem> active_trash;
+
+      sequence<msgs::msg::RobotStatus> robots;
+
+      string winner;
+    };
+  };
+};

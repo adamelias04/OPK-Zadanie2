@@ -266,10 +266,9 @@ CMakeFiles/test_config_loader.dir/test/test_config_loader.cpp.o: \
  /opt/ros/humble/src/gtest_vendor/include/gtest/gtest-typed-test.h \
  /opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h \
  /home/adam/opk/zadanie2/src/vacuum_core/include/vacuum_core/config/ConfigLoader.h \
- /home/adam/opk/zadanie2/src/vacuum_core/include/vacuum_core/config/GameConfig.h \
- /home/adam/opk/zadanie2/src/vacuum_core/include/vacuum_core/types/Geometry.h \
- /home/adam/opk/zadanie2/src/vacuum_core/include/vacuum_core/world/TrashFactory.h \
- /usr/include/c++/11/random /usr/include/c++/11/cmath /usr/include/math.h \
+ /usr/include/yaml-cpp/yaml.h /usr/include/yaml-cpp/parser.h \
+ /usr/include/yaml-cpp/dll.h /usr/include/yaml-cpp/emitter.h \
+ /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -290,8 +289,31 @@ CMakeFiles/test_config_loader.dir/test/test_config_loader.cpp.o: \
  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
- /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /usr/include/c++/11/bits/random.h \
+ /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/yaml-cpp/binary.h \
+ /usr/include/yaml-cpp/emitterdef.h /usr/include/yaml-cpp/emittermanip.h \
+ /usr/include/yaml-cpp/null.h /usr/include/yaml-cpp/ostream_wrapper.h \
+ /usr/include/yaml-cpp/emitterstyle.h /usr/include/yaml-cpp/stlemitter.h \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc /usr/include/yaml-cpp/exceptions.h \
+ /usr/include/yaml-cpp/mark.h /usr/include/yaml-cpp/noexcept.h \
+ /usr/include/yaml-cpp/traits.h /usr/include/yaml-cpp/node/node.h \
+ /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+ /usr/include/yaml-cpp/node/ptr.h /usr/include/yaml-cpp/node/type.h \
+ /usr/include/yaml-cpp/node/impl.h \
+ /usr/include/yaml-cpp/node/detail/memory.h \
+ /usr/include/yaml-cpp/node/detail/node.h \
+ /usr/include/yaml-cpp/node/detail/node_ref.h \
+ /usr/include/yaml-cpp/node/detail/node_data.h \
+ /usr/include/yaml-cpp/node/detail/node_iterator.h \
+ /usr/include/yaml-cpp/node/iterator.h \
+ /usr/include/yaml-cpp/node/detail/iterator.h /usr/include/c++/11/atomic \
+ /usr/include/yaml-cpp/node/convert.h \
+ /usr/include/yaml-cpp/node/detail/impl.h \
+ /usr/include/yaml-cpp/node/parse.h /usr/include/yaml-cpp/node/emit.h \
+ /home/adam/opk/zadanie2/src/vacuum_core/include/vacuum_core/config/GameConfig.h \
+ /home/adam/opk/zadanie2/src/vacuum_core/include/vacuum_core/types/Geometry.h \
+ /home/adam/opk/zadanie2/src/vacuum_core/include/vacuum_core/world/TrashFactory.h \
+ /usr/include/c++/11/random /usr/include/c++/11/bits/random.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h \

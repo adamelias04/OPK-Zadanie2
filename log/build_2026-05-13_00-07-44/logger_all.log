@@ -1,0 +1,357 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x728c4972c130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x728c496f70d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x728c496f70d0>>)
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.163s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adam/opk/zadanie2'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bringup' with type 'ros.ament_cmake' and name 'bringup'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/core' with type 'ros.ament_cmake' and name 'core'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msgs' with type 'ros.ament_cmake' and name 'msgs'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nodes' with type 'ros.ament_cmake' and name 'nodes'
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/adam/opk/zadanie2/install
+[0.192s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/adam/rrm_ws/install
+[0.192s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/adam/install
+[0.193s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/core', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/core', 'symlink_install': False, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/msgs', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/msgs', 'symlink_install': False, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/bringup', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/bringup', 'symlink_install': False, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/opk/zadanie2/build/nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/opk/zadanie2/install/nodes', 'merge_install': False, 'path': '/home/adam/opk/zadanie2/src/nodes', 'symlink_install': False, 'test_result_base': None}
+[0.223s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/core' with build type 'ament_cmake'
+[0.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/core'
+[0.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/msgs' with build type 'ament_cmake'
+[0.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/msgs'
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/core -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/core
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/msgs -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/msgs
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/core -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/core
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/core -- -j12 -l12
+[2.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/msgs -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/msgs
+[2.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/msgs -- -j12 -l12
+[5.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/core -- -j12 -l12
+[5.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/core
+[5.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[5.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/core
+[5.798s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core' for CMake module files
+[5.799s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core' for CMake config files
+[5.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[5.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.ps1'
+[5.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.dsv'
+[5.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.sh'
+[5.800s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib'
+[5.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'ld_library_path_lib')
+[5.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.ps1'
+[5.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.dsv'
+[5.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.sh'
+[5.801s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/bin'
+[5.801s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib/pkgconfig/core.pc'
+[5.801s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib/python3.10/site-packages'
+[5.802s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/bin'
+[5.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.ps1'
+[5.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/core/share/core/package.dsv'
+[5.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.sh'
+[5.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.bash'
+[5.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.zsh'
+[5.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/core/share/colcon-core/packages/core)
+[5.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[5.804s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core' for CMake module files
+[5.805s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core' for CMake config files
+[5.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[5.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.ps1'
+[5.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.dsv'
+[5.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/cmake_prefix_path.sh'
+[5.805s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib'
+[5.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'ld_library_path_lib')
+[5.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.ps1'
+[5.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.dsv'
+[5.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/core/share/core/hook/ld_library_path_lib.sh'
+[5.806s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/bin'
+[5.806s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib/pkgconfig/core.pc'
+[5.806s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/lib/python3.10/site-packages'
+[5.807s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/core/bin'
+[5.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.ps1'
+[5.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/core/share/core/package.dsv'
+[5.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.sh'
+[5.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.bash'
+[5.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/core/share/core/package.zsh'
+[5.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/core/share/colcon-core/packages/core)
+[6.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/msgs -- -j12 -l12
+[6.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/msgs
+[6.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs)
+[6.360s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs' for CMake module files
+[6.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/msgs
+[6.361s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs' for CMake config files
+[6.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'cmake_prefix_path')
+[6.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.ps1'
+[6.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.dsv'
+[6.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.sh'
+[6.363s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib'
+[6.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'ld_library_path_lib')
+[6.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.ps1'
+[6.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.dsv'
+[6.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.sh'
+[6.364s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/bin'
+[6.364s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib/pkgconfig/msgs.pc'
+[6.364s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib/python3.10/site-packages'
+[6.365s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/bin'
+[6.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.ps1'
+[6.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.dsv'
+[6.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.sh'
+[6.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.bash'
+[6.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.zsh'
+[6.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/msgs/share/colcon-core/packages/msgs)
+[6.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs)
+[6.368s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs' for CMake module files
+[6.369s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs' for CMake config files
+[6.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'cmake_prefix_path')
+[6.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.ps1'
+[6.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.dsv'
+[6.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/cmake_prefix_path.sh'
+[6.371s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib'
+[6.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs', 'ld_library_path_lib')
+[6.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.ps1'
+[6.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.dsv'
+[6.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/msgs/share/msgs/hook/ld_library_path_lib.sh'
+[6.372s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/bin'
+[6.372s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib/pkgconfig/msgs.pc'
+[6.372s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/lib/python3.10/site-packages'
+[6.372s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/msgs/bin'
+[6.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.ps1'
+[6.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.dsv'
+[6.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.sh'
+[6.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.bash'
+[6.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/msgs/share/msgs/package.zsh'
+[6.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/msgs/share/colcon-core/packages/msgs)
+[6.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/bringup' with build type 'ament_cmake'
+[6.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/bringup'
+[6.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/opk/zadanie2/src/nodes' with build type 'ament_cmake'
+[6.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/opk/zadanie2/src/nodes'
+[6.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/bringup': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/bringup -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/bringup
+[6.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/nodes': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/nodes -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/nodes
+[6.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/bringup' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/bringup -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/bringup
+[6.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/bringup': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/bringup -- -j12 -l12
+[6.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/bringup' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/bringup -- -j12 -l12
+[6.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/bringup': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/bringup
+[6.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[6.952s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup' for CMake module files
+[6.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/bringup' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/bringup
+[6.953s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup' for CMake config files
+[6.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'cmake_prefix_path')
+[6.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/bringup/share/bringup/hook/cmake_prefix_path.ps1'
+[6.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/bringup/share/bringup/hook/cmake_prefix_path.dsv'
+[6.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/bringup/share/bringup/hook/cmake_prefix_path.sh'
+[6.954s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup/bin'
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup/lib/pkgconfig/bringup.pc'
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup/lib/python3.10/site-packages'
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup/bin'
+[6.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.ps1'
+[6.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.dsv'
+[6.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.sh'
+[6.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.bash'
+[6.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.zsh'
+[6.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/bringup/share/colcon-core/packages/bringup)
+[6.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[6.958s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup' for CMake module files
+[6.959s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup' for CMake config files
+[6.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'cmake_prefix_path')
+[6.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/bringup/share/bringup/hook/cmake_prefix_path.ps1'
+[6.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/bringup/share/bringup/hook/cmake_prefix_path.dsv'
+[6.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/bringup/share/bringup/hook/cmake_prefix_path.sh'
+[6.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup/bin'
+[6.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup/lib/pkgconfig/bringup.pc'
+[6.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup/lib/python3.10/site-packages'
+[6.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/bringup/bin'
+[6.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.ps1'
+[6.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.dsv'
+[6.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.sh'
+[6.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.bash'
+[6.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/bringup/share/bringup/package.zsh'
+[6.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/bringup/share/colcon-core/packages/bringup)
+[7.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/nodes' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/opk/zadanie2/src/nodes -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/nodes
+[7.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/nodes': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/nodes -- -j12 -l12
+[19.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/nodes' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/opk/zadanie2/build/nodes -- -j12 -l12
+[19.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/opk/zadanie2/build/nodes': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/nodes
+[19.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes)
+[19.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/opk/zadanie2/build/nodes' returned '0': AMENT_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/msgs:/home/adam/opk/zadanie2/install/core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/opk/zadanie2/install/msgs/lib:/home/adam/opk/zadanie2/install/core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/opk/zadanie2/install/msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/opk/zadanie2/build/nodes
+[19.062s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes' for CMake module files
+[19.062s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes' for CMake config files
+[19.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes', 'cmake_prefix_path')
+[19.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/nodes/share/nodes/hook/cmake_prefix_path.ps1'
+[19.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/nodes/share/nodes/hook/cmake_prefix_path.dsv'
+[19.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/nodes/share/nodes/hook/cmake_prefix_path.sh'
+[19.063s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/lib'
+[19.064s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/bin'
+[19.064s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/lib/pkgconfig/nodes.pc'
+[19.065s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/lib/python3.10/site-packages'
+[19.065s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/bin'
+[19.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.ps1'
+[19.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.dsv'
+[19.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.sh'
+[19.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.bash'
+[19.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.zsh'
+[19.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/nodes/share/colcon-core/packages/nodes)
+[19.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes)
+[19.066s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes' for CMake module files
+[19.067s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes' for CMake config files
+[19.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes', 'cmake_prefix_path')
+[19.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/nodes/share/nodes/hook/cmake_prefix_path.ps1'
+[19.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/opk/zadanie2/install/nodes/share/nodes/hook/cmake_prefix_path.dsv'
+[19.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/opk/zadanie2/install/nodes/share/nodes/hook/cmake_prefix_path.sh'
+[19.068s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/lib'
+[19.068s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/bin'
+[19.068s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/lib/pkgconfig/nodes.pc'
+[19.068s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/lib/python3.10/site-packages'
+[19.068s] Level 1:colcon.colcon_core.environment:checking '/home/adam/opk/zadanie2/install/nodes/bin'
+[19.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.ps1'
+[19.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.dsv'
+[19.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.sh'
+[19.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.bash'
+[19.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/opk/zadanie2/install/nodes/share/nodes/package.zsh'
+[19.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/opk/zadanie2/install/nodes/share/colcon-core/packages/nodes)
+[19.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.074s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.078s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.084s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.ps1'
+[19.085s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/opk/zadanie2/install/_local_setup_util_ps1.py'
+[19.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.ps1'
+[19.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.sh'
+[19.087s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/opk/zadanie2/install/_local_setup_util_sh.py'
+[19.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.sh'
+[19.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.bash'
+[19.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.bash'
+[19.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/opk/zadanie2/install/local_setup.zsh'
+[19.090s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/opk/zadanie2/install/setup.zsh'

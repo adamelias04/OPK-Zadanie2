@@ -1,0 +1,5 @@
+
+bool success
+msgs/TrashItem collected
+uint32 capacity_used
+uint32 capacity_max

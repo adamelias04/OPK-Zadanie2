@@ -1,0 +1,25 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/robot_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable lidar_node[0m
+[ 75%] Built target lidar_node
+[100%] [32m[1mLinking CXX executable robot_node[0m
+[100%] Built target robot_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/robot_node
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/lib/vacuum_robot/lidar_node
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/package_run_dependencies/vacuum_robot
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/parent_prefix_path/vacuum_robot
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.sh
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/environment/path.dsv
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.bash
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.sh
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.zsh
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/local_setup.dsv
+-- Symlinking: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.dsv
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/ament_index/resource_index/packages/vacuum_robot
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig.cmake
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig-version.cmake
+-- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_robot/share/vacuum_robot/package.xml

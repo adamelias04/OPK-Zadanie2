@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/build/core/ament_cmake_environment_hooks/local_setup.bash

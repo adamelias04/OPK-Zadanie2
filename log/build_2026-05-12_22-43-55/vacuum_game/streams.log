@@ -1,0 +1,31 @@
+[0.018s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/bot_node.cpp.o[0m
+[0.115s] [ 50%] Built target teleop_node
+[0.116s] [ 66%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[5.792s] [ 83%] [32m[1mLinking CXX executable game_node[0m
+[6.317s] [ 83%] Built target game_node
+[7.575s] [100%] [32m[1mLinking CXX executable bot_node[0m
+[8.157s] [100%] Built target bot_node
+[8.166s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/vacuum_game -- -j12 -l12
+[8.168s] Invoking command in '/home/adam/opk/zadanie2/build/vacuum_game': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game
+[8.175s] -- Install configuration: ""
+[8.175s] -- Execute custom install script
+[8.175s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/game_node
+[8.175s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/teleop_node
+[8.175s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/lib/vacuum_game/bot_node
+[8.175s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/package_run_dependencies/vacuum_game
+[8.175s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/parent_prefix_path/vacuum_game
+[8.176s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.sh
+[8.176s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/ament_prefix_path.dsv
+[8.176s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.sh
+[8.176s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/environment/path.dsv
+[8.176s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.bash
+[8.176s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.sh
+[8.176s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.zsh
+[8.176s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/local_setup.dsv
+[8.176s] -- Symlinking: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.dsv
+[8.184s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/ament_index/resource_index/packages/vacuum_game
+[8.185s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig.cmake
+[8.185s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/cmake/vacuum_gameConfig-version.cmake
+[8.185s] -- Up-to-date symlink: /home/adam/opk/zadanie2/install/vacuum_game/share/vacuum_game/package.xml
+[8.187s] Invoked command in '/home/adam/opk/zadanie2/build/vacuum_game' returned '0': CMAKE_PREFIX_PATH=/home/adam/opk/zadanie2/install/vacuum_msgs:/home/adam/opk/zadanie2/install/vacuum_core:/home/adam/opk/zadanie2/install/vacuum_bringup:/home/adam/opk/zadanie2/install/vacuum_robot:/home/adam/opk/zadanie2/install/vacuum_game:/home/adam/rrm_ws/install/zadanie5_model:/home/adam/rrm_ws/install/zad6ik:/home/adam/rrm_ws/install/zad6fk:/home/adam/rrm_ws/install/zad4:/home/adam/rrm_ws/install/zad1:/home/adam/rrm_ws/install/rrm_simple_robot_model:/home/adam/rrm_ws/install/rrm_sim:/home/adam/rrm_ws/install/rrm_projekt:/home/adam/rrm_ws/install/block1_elias:/home/adam/rrm_ws/install/rrm_msgs:/home/adam/rrm_ws/install/cv1:/home/adam/rrm_ws/install/abb_model:/home/adam/rrm_ws/install/abb_irb4600_ikfast:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/vacuum_game

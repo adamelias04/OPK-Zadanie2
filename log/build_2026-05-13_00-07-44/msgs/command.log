@@ -1,0 +1,6 @@
+Invoking command in '/home/adam/opk/zadanie2/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/msgs -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/msgs
+Invoked command in '/home/adam/opk/zadanie2/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adam/opk/zadanie2/src/msgs -DCMAKE_INSTALL_PREFIX=/home/adam/opk/zadanie2/install/msgs
+Invoking command in '/home/adam/opk/zadanie2/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/msgs -- -j12 -l12
+Invoked command in '/home/adam/opk/zadanie2/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adam/opk/zadanie2/build/msgs -- -j12 -l12
+Invoking command in '/home/adam/opk/zadanie2/build/msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/msgs
+Invoked command in '/home/adam/opk/zadanie2/build/msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adam/opk/zadanie2/build/msgs

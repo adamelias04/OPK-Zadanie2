@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/src/core/include/core/world/Collectible.h

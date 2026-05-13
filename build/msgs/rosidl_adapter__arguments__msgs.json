@@ -1,0 +1,12 @@
+{
+  "package_name": "msgs",
+  "non_idl_tuples": [
+    "/home/adam/opk/zadanie2/src/msgs:msg/TrashItem.msg",
+    "/home/adam/opk/zadanie2/src/msgs:msg/TrashCount.msg",
+    "/home/adam/opk/zadanie2/src/msgs:msg/RobotStatus.msg",
+    "/home/adam/opk/zadanie2/src/msgs:msg/GameState.msg",
+    "/home/adam/opk/zadanie2/src/msgs:srv/CollectTrash.srv",
+    "/home/adam/opk/zadanie2/src/msgs:srv/UnloadTrash.srv",
+    "/home/adam/opk/zadanie2/src/msgs:srv/ResetGame.srv"
+  ]
+}

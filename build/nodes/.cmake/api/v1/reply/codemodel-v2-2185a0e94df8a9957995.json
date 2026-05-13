@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-acf350be247a9c92fe7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_node-6828fd86aab4e1960239.json",
+					"name" : "bot_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game_node-bcd615433f32e0e365bd.json",
+					"name" : "game_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_node-aceb22f69d75f991e6b8.json",
+					"name" : "lidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nodes_uninstall-8c26cb5301864aebaa0c.json",
+					"name" : "nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pvp_teleop_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pvp_teleop_node-5ff230cbddceb7e158c6.json",
+					"name" : "pvp_teleop_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_node-fe994bb40a19421cdb37.json",
+					"name" : "robot_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_node-9eae7ea26d45ce461fce.json",
+					"name" : "teleop_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3646b8e56e0cbd8dead5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adam/opk/zadanie2/build/nodes",
+		"source" : "/home/adam/opk/zadanie2/src/nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

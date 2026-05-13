@@ -1,0 +1,1 @@
+/home/adam/opk/zadanie2/src/core/include/core/config/ConfigLoader.h

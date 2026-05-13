@@ -42,7 +42,7 @@ public:
             "robot_node '%s' started at (%.2f, %.2f), ghost=%s",
             robot_id_.c_str(), start_x_, start_y_, ghost_ ? "true" : "false");
     }
-
+     
 private:
     void declareParams() {
         config_path_ = declare_parameter<std::string>("config_file", "");
@@ -67,8 +67,6 @@ private:
         };
         env_ = std::make_shared<vacuum_core::environment::Environment>(env_cfg);
 
-        // Static obstacles from YAML — each RobotNode keeps its own local copy,
-        // sufficient for collision since they don't change during the match.
         uint32_t id = 1;
         for (const auto& o : cfg_.obstacles) {
             if (o.shape == "circle") {
@@ -158,10 +156,7 @@ private:
 
         const auto state = robot_->getState();
 
-        // Unload first if we're carrying anything and at the station.
         if (last_capacity_used_ > 0) {
-            // We don't get the station position from game state (it's in markers/map);
-            // we read it from config — station is static.
             const double dx = state.x - cfg_.station_pos.x;
             const double dy = state.y - cfg_.station_pos.y;
             if (std::sqrt(dx * dx + dy * dy) < cfg_.station_radius + cfg_.robot_radius) {
@@ -170,7 +165,6 @@ private:
             }
         }
 
-        // Otherwise try to collect a nearby trash.
         if (last_capacity_used_ >= cfg_.max_capacity) return;
         for (const auto& t : latest_game_state_.active_trash) {
             const double dx = state.x - t.position.x;
@@ -239,7 +233,7 @@ private:
                             const rclcpp::Time& now) {
         visualization_msgs::msg::MarkerArray arr;
 
-        // Cylinder body
+        // telo
         visualization_msgs::msg::Marker body;
         body.header.frame_id = "map";
         body.header.stamp = now;
@@ -257,7 +251,7 @@ private:
         body.color = marker_color_;
         arr.markers.push_back(body);
 
-        // Arrow showing heading
+        // sipka
         visualization_msgs::msg::Marker arrow;
         arrow.header = body.header;
         arrow.ns = robot_id_;
@@ -270,9 +264,9 @@ private:
         p1.y = state.y + std::sin(state.theta) * cfg_.robot_radius * 1.8;
         p1.z = 0.25;
         arrow.points = {p0, p1};
-        arrow.scale.x = 0.06;   // shaft diameter
-        arrow.scale.y = 0.12;   // head diameter
-        arrow.scale.z = 0.10;   // head length
+        arrow.scale.x = 0.06;   
+        arrow.scale.y = 0.12;  
+        arrow.scale.z = 0.10; 
         arrow.color.r = 1.0f; arrow.color.g = 1.0f; arrow.color.b = 1.0f;
         arrow.color.a = 1.0f;
         arr.markers.push_back(arrow);
